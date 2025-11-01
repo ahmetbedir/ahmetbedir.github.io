@@ -1,0 +1,10 @@
+{
+  "name": "jsonresume-theme-modern",
+  "version": "1.0.0",
+  "description": "Modern ATS-friendly resume theme",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
+

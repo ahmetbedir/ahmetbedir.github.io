@@ -1,0 +1,10 @@
+{
+  "name": "jsonresume-theme-short",
+  "version": "0.1.7",
+  "description": "A concise one-page resume theme",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "MIT"
+}
+

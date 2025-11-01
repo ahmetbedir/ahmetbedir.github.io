@@ -1,0 +1,9 @@
+{
+  "name": "jsonresume-theme-professional",
+  "version": "1.0.0",
+  "description": "Custom resume theme: professional",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}

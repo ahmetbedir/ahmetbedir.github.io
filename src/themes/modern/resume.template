@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{resume.basics.name}} - {{resume.basics.label}}</title>
+    <style>
+      {{{css}}}
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>{{resume.basics.name}}</h1>
+      {{#if resume.basics.label}}
+      <div class="label">{{resume.basics.label}}</div>
+      {{/if}}
+      <div class="contact-info">
+        {{#if resume.basics.email}}
+        <a href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a>
+        {{/if}}
+        {{#if resume.basics.phone}}
+        <a href="tel:{{resume.basics.phone}}">{{resume.basics.phone}}</a>
+        {{/if}}
+        {{#if resume.basics.location}}
+        <span>{{#if resume.basics.location.city}}{{resume.basics.location.city}}{{/if}}{{#if resume.basics.location.city}}{{#if resume.basics.location.countryCode}}, {{/if}}{{/if}}{{#if resume.basics.location.countryCode}}{{resume.basics.location.countryCode}}{{/if}}</span>
+        {{/if}}
+        {{#if resume.basics.url}}
+        <a href="{{resume.basics.url}}" target="_blank">{{resume.basics.url}}</a>
+        {{/if}}
+        {{#if resume.basics.profiles}}
+        {{#each resume.basics.profiles}}
+        <a href="{{#if url}}{{url}}{{else}}#{{/if}}" target="_blank">{{network}}: {{username}}</a>
+        {{/each}}
+        {{/if}}
+      </div>
+    </header>
+
+    {{#if resume.basics.summary}}
+    <section class="section">
+      <h2 class="section-title">Professional Summary</h2>
+      <div class="summary">{{resume.basics.summary}}</div>
+    </section>
+    {{/if}}
+
+    {{#if resume.work}}
+    {{#if resume.work.length}}
+    <section class="section">
+      <h2 class="section-title">Professional Experience</h2>
+      {{#each resume.work}}
+      <div class="work-item">
+        <div class="work-header">
+          <div>
+            <div class="work-position">{{position}}</div>
+            {{#if url}}
+            <div class="work-company"><a href="{{url}}" target="_blank">{{name}}</a></div>
+            {{else}}
+            <div class="work-company">{{name}}</div>
+            {{/if}}
+          </div>
+          <div class="work-date">{{formatDuration startDate endDate}}</div>
+        </div>
+        {{#if summary}}
+        <div class="work-summary">{{summary}}</div>
+        {{/if}}
+        {{#if highlights}}
+        {{#if highlights.length}}
+        <ul class="highlights">
+          {{#each highlights}}
+          <li>{{this}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
+        {{/if}}
+      </div>
+      {{/each}}
+    </section>
+    {{/if}}
+    {{/if}}
+
+    {{#if resume.education}}
+    {{#if resume.education.length}}
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+      {{#each resume.education}}
+      <div class="education-item">
+        <div class="education-header">
+          <div>
+            <div class="education-degree">{{#if studyType}}{{studyType}}{{/if}}{{#if studyType}}{{#if area}}, {{/if}}{{/if}}{{#if area}}{{area}}{{/if}}</div>
+            <div class="education-institution">{{institution}}</div>
+          </div>
+          {{#if startDate}}
+          {{#if endDate}}
+          <div class="education-date">{{formatDuration startDate endDate}}</div>
+          {{else}}
+          <div class="education-date">{{formatDuration startDate endDate}}</div>
+          {{/if}}
+          {{else}}
+          {{#if endDate}}
+          <div class="education-date">{{formatDuration startDate endDate}}</div>
+          {{/if}}
+          {{/if}}
+        </div>
+      </div>
+      {{/each}}
+    </section>
+    {{/if}}
+    {{/if}}
+
+    {{#if resume.skills}}
+    {{#if resume.skills.length}}
+    <section class="section">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        {{#each resume.skills}}
+        <div class="skill-category">
+          <div class="skill-name">{{name}}{{#if level}} ({{level}}){{/if}}</div>
+          {{#if keywords}}
+          {{#if keywords.length}}
+          <div class="skill-keywords">
+            {{#each keywords}}
+            <span>{{this}}</span>
+            {{/each}}
+          </div>
+          {{/if}}
+          {{/if}}
+        </div>
+        {{/each}}
+      </div>
+    </section>
+    {{/if}}
+    {{/if}}
+
+    {{#if resume.languages}}
+    {{#if resume.languages.length}}
+    <section class="section">
+      <h2 class="section-title">Languages</h2>
+      {{#each resume.languages}}
+      <div class="language-item">
+        <span class="language-name">{{language}}</span>
+        <span class="language-fluency">{{fluency}}</span>
+      </div>
+      {{/each}}
+    </section>
+    {{/if}}
+    {{/if}}
+
+    {{#if resume.interests}}
+    {{#if resume.interests.length}}
+    <section class="section">
+      <h2 class="section-title">Interests</h2>
+      {{#each resume.interests}}
+      <div class="interest-item">
+        <div class="interest-name">{{name}}</div>
+        {{#if keywords}}
+        {{#if keywords.length}}
+        <div class="interest-keywords">{{join keywords ", "}}</div>
+        {{/if}}
+        {{/if}}
+      </div>
+      {{/each}}
+    </section>
+    {{/if}}
+    {{/if}}
+
+    {{#if resume.references}}
+    {{#if resume.references.length}}
+    <section class="section">
+      <h2 class="section-title">References</h2>
+      {{#each resume.references}}
+      <div class="reference-item">
+        <div class="reference-name">{{name}}</div>
+        {{#if reference}}
+        <div class="reference-text">{{reference}}</div>
+        {{/if}}
+      </div>
+      {{/each}}
+    </section>
+    {{/if}}
+    {{/if}}
+  </body>
+</html>
+
