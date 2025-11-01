@@ -1,0 +1,197 @@
+{
+    "meta": {
+      "theme": "professional"
+    },
+    "basics": {
+      "name": "Ahmet Bedir",
+      "label": "Senior PHP & Laravel Developer",
+      "email": "ahmetbedir16@gmail.com",
+      "phone": "+905444866138",
+      "url": "https://github.com/ahmetbedir",
+      "summary": "Backend-oriented Full-Stack Developer with 10 years of experience building scalable SaaS and e-commerce platforms. Expert in PHP/Laravel, JavaScript (Vue.js, Node.js), and API-driven architectures, with solid DevOps knowledge of Docker, CI/CD, and Linux servers. Passionate about clean code, automation, and performance optimization.",
+      "location": {
+        "city": "Istanbul",
+        "countryCode": "TR"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "ahmet-bedir",
+          "url": "https://www.linkedin.com/in/ahmet-bedir"
+        },
+        {
+          "network": "GitHub",
+          "username": "ahmetbedir",
+          "url": "https://github.com/ahmetbedir"
+        }
+      ],
+      "image": "https://avatars.githubusercontent.com/u/10426366?v=4"
+    },
+    "work": [
+      {
+        "name": "The Despatch Company",
+        "position": "Senior Software Developer",
+        "url": "https://thedespatchcompany.com",
+        "startDate": "2022-01-01",
+        "summary": "Developing SaaS-based software solutions to streamline e-commerce operations for clients. Responsibilities include backend development, server maintenance, and system management. Contributed to order and inventory management systems, multi-channel sales integrations, branded return portals, and real-time shipment tracking.",
+        "highlights": [
+          "Built scalable SaaS-based e-commerce and logistics integrations.",
+          "Developed API-driven modules for order and inventory management.",
+          "Implemented real-time shipment tracking and branded return portals.",
+          "Maintained server infrastructure and optimized system performance."
+        ]
+      },
+      {
+        "name": "Tek Kılavuz Digital Performance Agency",
+        "url": "https://www.tekkilavuz.com.tr",
+        "position": "Software Developer",
+        "startDate": "2018-01-01",
+        "endDate": "2022-01-01",
+        "summary": "Developed e-commerce platforms, CRM systems, and custom business applications. Managed server maintenance and ensured system scalability for multiple digital projects.",
+        "highlights": [
+          "Delivered scalable and high-performance e-commerce solutions.",
+          "Developed CRM and custom business automation systems.",
+          "Maintained hosting environments and optimized web servers."
+        ]
+      },
+      {
+        "name": "Sisoft Healthcare Information Systems",
+        "url": "https://www.sisoft.com.tr/tr/",
+        "position": "Technical Support Specialist",
+        "startDate": "2017-02-01",
+        "endDate": "2018-10-01",
+        "summary": "Provided technical support and troubleshooting for hospital management system software. Ensured stability, performance, and user satisfaction across healthcare institutions.",
+        "highlights": [
+          "Resolved system issues for hospital information management systems.",
+          "Improved system uptime and user experience for healthcare staff."
+        ]
+      },
+      {
+        "name": "Dumlupınar University Evliya Celebi Training and Research Hospital",
+        "url": "https://evliyacelebieah.saglik.gov.tr/",
+        "position": "Intern",
+        "startDate": "2013-09-01",
+        "endDate": "2014-06-01",
+        "summary": "Worked on IT infrastructure and software optimization for the hospital. Supported technical troubleshooting and system enhancements.",
+        "highlights": [
+          "Performed software and hardware optimizations.",
+          "Improved IT infrastructure reliability and efficiency."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Anadolu University",
+        "area": "Technical Sciences",
+        "studyType": "Associate Degree",
+        "startDate": "2019-09-01"
+      },
+      {
+        "institution": "Dumlupinar University",
+        "area": "Technical Sciences",
+        "studyType": "Associate Degree",
+        "startDate": "2014-09-01",
+        "endDate": "2017-06-01"
+      },
+      {
+        "institution": "Anatolian Technical and Industrial Vocational High School",
+        "area": "Information Technologies",
+        "studyType": "High School Diploma",
+        "startDate": "2010-09-01",
+        "endDate": "2014-06-01"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming",
+        "level": "Advanced",
+        "keywords": [
+          "PHP",
+          "Laravel",
+          "Filament",
+          "Livewire",
+          "JavaScript",
+          "NodeJS",
+          "VueJS",
+          "NuxtJS"
+        ]
+      },
+      {
+        "name": "Databases",
+        "level": "Advanced",
+        "keywords": [
+          "MySQL",
+          "PostgreSQL",
+          "Redis",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "DevOps & Infrastructure",
+        "level": "Intermediate",
+        "keywords": [
+          "Docker",
+          "Linux",
+          "Server Maintenance"
+        ]
+      },
+      {
+        "name": "Software Architecture",
+        "level": "Advanced",
+        "keywords": [
+          "MVC",
+          "Agile Methodology",
+          "Test Driven Development",
+          "Design Patterns",
+          "Component Based Architecture"
+        ]
+      },
+      {
+        "name": "Tools",
+        "keywords": [
+          "Git",
+          "VS Code",
+          "Webpack",
+          "Bitbucket",
+          "Jira",
+          "GitHub"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Turkish",
+        "fluency": "Native"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional working proficiency"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Software Development",
+        "keywords": [
+          "Backend Systems",
+          "SaaS Platforms",
+          "eCommerce",
+          "Automation",
+          "Open Source"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Umut Can Güngörmüş",
+        "reference": "I had the opportunity to work closely with Ahmet Bedir, and I can confidently say that he is an exceptional backend developer. His expertise in Laravel and backend technologies is remarkable, and he has a great ability to break down complex challenges into efficient, scalable solutions.\n\nAhmet is not only technically proficient but also an excellent collaborator. He communicates clearly, shares his knowledge generously, and contributes to a positive team dynamic. His commitment to writing clean, maintainable code and his problem-solving mindset make him an invaluable asset to any development team. I highly recommend him!"
+      },
+      {
+        "name": "Aykut Can",
+        "reference": "Ahmet is an excellent developer. Innovative, dynamic, efficient, adaptable and passionate about his work."
+      },
+      {
+        "name": "Aytug Firat GUNDOGDU",
+        "reference": "I had the pleasure of working with Ahmet Bedir, and I highly recommend him as a backend developer. He consistently demonstrates strong technical skills, a deep understanding of backend development, and a knack for solving complex problems. His ability to tackle challenging tasks with precision and efficiency is impressive.\n\nAhmet is not only a skilled developer but also a great team player. He communicates effectively and is always willing to collaborate to find the best solutions. His dedication to quality and passion for coding make him a valuable asset to any project."
+      }
+    ]
+  }
