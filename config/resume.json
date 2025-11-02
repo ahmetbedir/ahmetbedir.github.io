@@ -8,7 +8,7 @@
       "email": "ahmetbedir16@gmail.com",
       "phone": "+905444866138",
       "url": "https://ahmetbedir.dev",
-      "summary": "Backend-oriented Full-Stack Developer with 10 years of experience building scalable SaaS and e-commerce platforms. Expert in PHP/Laravel, JavaScript (Vue.js, Node.js), and API-driven architectures, with solid DevOps knowledge of Docker, CI/CD, and Linux servers. Passionate about clean code, automation, and performance optimization.",
+      "summary": "Senior Full-Stack Developer with 10 years of experience architecting and building high-performance SaaS and e-commerce platforms. Expert in PHP/Laravel and API-driven microservices, with a track record of optimizing system performance and mentoring junior developers. Proficient in leveraging Docker, CI/CD pipelines, and Agile methodologies to deliver robust, scalable solutions.",
       "location": {
         "city": "Istanbul",
         "countryCode": "TR"
@@ -131,6 +131,8 @@
         "level": "Intermediate",
         "keywords": [
           "Docker",
+          "CI/CD",
+          "GitHub Actions",
           "Linux",
           "Server Maintenance"
         ]
@@ -140,10 +142,16 @@
         "level": "Advanced",
         "keywords": [
           "MVC",
+          "RESTful API Design",
+          "Microservices",
           "Agile Methodology",
           "Test Driven Development",
           "Design Patterns",
-          "Component Based Architecture"
+          "Component Based Architecture",
+          "Team Leadership",
+          "Mentoring",
+          "Code Review",
+          "Technical Architecture"
         ]
       },
       {
@@ -166,32 +174,6 @@
       {
         "language": "English",
         "fluency": "Professional working proficiency"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Software Development",
-        "keywords": [
-          "Backend Systems",
-          "SaaS Platforms",
-          "eCommerce",
-          "Automation",
-          "Open Source"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "name": "Aytug Firat GUNDOGDU",
-        "reference": "I had the pleasure of working with Ahmet Bedir, and I highly recommend him as a backend developer. He consistently demonstrates strong technical skills, a deep understanding of backend development, and a knack for solving complex problems. His ability to tackle challenging tasks with precision and efficiency is impressive.\n\nAhmet is not only a skilled developer but also a great team player. He communicates effectively and is always willing to collaborate to find the best solutions. His dedication to quality and passion for coding make him a valuable asset to any project."
-      },
-      {
-        "name": "Umut Can Güngörmüş",
-        "reference": "I had the opportunity to work closely with Ahmet Bedir, and I can confidently say that he is an exceptional backend developer. His expertise in Laravel and backend technologies is remarkable, and he has a great ability to break down complex challenges into efficient, scalable solutions.\n\nAhmet is not only technically proficient but also an excellent collaborator. He communicates clearly, shares his knowledge generously, and contributes to a positive team dynamic. His commitment to writing clean, maintainable code and his problem-solving mindset make him an invaluable asset to any development team. I highly recommend him!"
-      },
-      {
-        "name": "Aykut Can",
-        "reference": "Ahmet is an excellent developer. Innovative, dynamic, efficient, adaptable and passionate about his work."
       }
     ]
   }
