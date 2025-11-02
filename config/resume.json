@@ -103,22 +103,22 @@
     ],
     "skills": [
       {
-        "name": "Programming",
-        "level": "Advanced",
+        "name": "Languages & Frameworks",
+        "level": "",
         "keywords": [
           "PHP",
           "Laravel",
           "Filament",
           "Livewire",
           "JavaScript",
-          "NodeJS",
-          "VueJS",
-          "NuxtJS"
+          "Node.js",
+          "Vue.js",
+          "Nuxt.js"
         ]
       },
       {
-        "name": "Databases",
-        "level": "Advanced",
+        "name": "Databases & Caching",
+        "level": "",
         "keywords": [
           "PostgreSQL",
           "MySQL",
@@ -128,8 +128,9 @@
       },
       {
         "name": "DevOps & Infrastructure",
-        "level": "Intermediate",
+        "level": "",
         "keywords": [
+          "AWS (EC2, S3)",
           "Docker",
           "CI/CD",
           "GitHub Actions",
@@ -138,16 +139,22 @@
         ]
       },
       {
-        "name": "Software Architecture",
-        "level": "Advanced",
+        "name": "Architecture & Methodologies",
+        "level": "",
         "keywords": [
           "MVC",
           "RESTful API Design",
           "Microservices",
-          "Agile Methodology",
-          "Test Driven Development",
+          "Agile/Scrum",
+          "TDD",
           "Design Patterns",
-          "Component Based Architecture",
+          "Component Based Architecture"
+        ]
+      },
+      {
+        "name": "Leadership & Collaboration",
+        "level": "",
+        "keywords": [
           "Team Leadership",
           "Mentoring",
           "Code Review",

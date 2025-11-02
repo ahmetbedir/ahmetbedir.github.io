@@ -8,6 +8,7 @@
     "build": "yarn resume:site && yarn resume:pdf",
     "resume:site": "resumed config/resume.json --theme jsonresume-theme-even --output index.html",
     "resume:pdf": "resumed export config/resume.json --theme jsonresume-theme-professional --output resume/ahmetbedir.pdf",
+    "resume:html": "resumed render config/resume.json --theme jsonresume-theme-professional --output resume/ahmetbedir.html",
     "resume:modern:pdf": "resumed export config/resume.json --theme jsonresume-theme-modern --output resume/ahmetbedir-modern.pdf",
     "create-theme": "node scripts/create-theme.js"
   },

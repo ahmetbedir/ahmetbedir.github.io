@@ -232,6 +232,7 @@ ul {
 .skill-name {
   font-weight: 600;
   font-size: 1.4rem;
+  min-width: 250px;
 }
 
 .skill-keywords {
