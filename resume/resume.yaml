@@ -1,0 +1,68 @@
+cv:
+  name: "Ahmet Bedir"
+  location: "Istanbul, TR"
+  email: "ahmetbedir16@gmail.com"
+  phone: "+905444866138"
+  website: "https://ahmetbedir.dev"
+  social_networks:
+    -
+      username: "ahmet-bedir"
+    -
+      username: "ahmetbedir"
+  sections:
+    summary:
+      - "Senior Full-Stack Developer with 10 years of experience architecting and building high-performance SaaS and e-commerce platforms. Expert in PHP/Laravel and API-driven microservices, with a track record of optimizing system performance and mentoring junior developers. Proficient in leveraging Docker, CI/CD pipelines, and Agile methodologies to deliver robust, scalable solutions."
+    education:
+      - institution: "Anadolu University"
+        area: "Technical Sciences"
+        degree: "Associate Degree"
+        start_date: "2019-09-01"
+        highlights: []
+      - institution: "Dumlupinar University"
+        area: "Technical Sciences"
+        degree: "Associate Degree"
+        start_date: "2014-09-01"
+        end_date: "2017-06-01"
+        highlights: []
+      - institution: "Anatolian Technical and Industrial Vocational High School"
+        area: "Information Technologies"
+        degree: "High School Diploma"
+        start_date: "2010-09-01"
+        end_date: "2014-06-01"
+        highlights: []
+    experience:
+      - company: "The Despatch Company"
+        position: "Senior Software Developer"
+        start_date: "2022-01-01"
+        highlights:
+          - "Built scalable SaaS-based e-commerce and logistics integrations."
+          - "Developed API-driven modules for order and inventory management."
+          - "Implemented real-time shipment tracking and branded return portals."
+          - "Maintained server infrastructure and optimized system performance."
+      - company: "Tek Kılavuz Digital Performance Agency"
+        position: "Software Developer"
+        start_date: "2018-01-01"
+        end_date: "2022-01-01"
+        highlights:
+          - "Delivered scalable and high-performance e-commerce solutions."
+          - "Developed CRM and custom business automation systems."
+          - "Maintained hosting environments and optimized web servers."
+      - company: "Sisoft Healthcare Information Systems"
+        position: "Technical Support Specialist"
+        start_date: "2017-02-01"
+        end_date: "2018-10-01"
+        highlights:
+          - "Resolved system issues for hospital information management systems."
+          - "Improved system uptime and user experience for healthcare staff."
+      - company: "Dumlupınar University Evliya Celebi Training and Research Hospital"
+        position: "Intern"
+        start_date: "2013-09-01"
+        end_date: "2014-06-01"
+        highlights:
+          - "Performed software and hardware optimizations."
+          - "Improved IT infrastructure reliability and efficiency."
+    technologies:
+      - label: "Languages"
+        details: ""
+      - label: "Software"
+        details: ""

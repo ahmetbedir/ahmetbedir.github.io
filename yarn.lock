@@ -456,13 +456,13 @@ jsonresume-theme-even@^0.26.1:
     micromark "^2.11.0"
     striptags "^3.2.0"
 
-"jsonresume-theme-modern@file:./src/themes/modern":
+"jsonresume-theme-modern@file:./themes/modern":
   version "1.0.0"
 
-"jsonresume-theme-professional@file:./src/themes/professional":
+"jsonresume-theme-professional@file:./themes/professional":
   version "1.0.0"
 
-"jsonresume-theme-short@file:./src/themes/short":
+"jsonresume-theme-short@file:./themes/short":
   version "0.1.7"
 
 jsonschema@^1.4.1:
