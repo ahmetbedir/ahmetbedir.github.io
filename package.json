@@ -7,10 +7,13 @@
   "scripts": {
     "site": "resumed config/resume.json --theme jsonresume-theme-even",
     "short": "resumed config/resume.json --theme jsonresume-theme-short --output dist/resume-short.html",
+    "short:pdf": "resumed export config/resume.json --theme jsonresume-theme-short --output dist/resume-short.pdf",
     "modern": "resumed config/resume.json --theme jsonresume-theme-modern --output dist/resume-modern.html",
+    "modern:pdf": "resumed export config/resume.json --theme jsonresume-theme-modern --output dist/resume-modern.pdf",
     "professional": "resumed render config/resume.json --theme jsonresume-theme-professional --output dist/resume-professional.html",
-    "pdf": "resumed export config/resume.json --theme jsonresume-theme-modern --output dist/resume-modern.pdf",
-    "even": "resumed render config/resume.json --theme jsonresume-theme-even --output dist/resume-even.html",
+    "professional:pdf": "resumed export config/resume.json --theme jsonresume-theme-professional --output dist/resume-professional.pdf",
+    "even": "resumed render config/resume.json --theme jsonresume-theme-even-crewshin --output dist/resume-even.html",
+    "even:pdf": "resumed export config/resume.json --theme jsonresume-theme-even-crewshin --output dist/resume-even.pdf",
     "build": "node src/index.js",
     "create-theme": "node scripts/create-theme.js"
   },

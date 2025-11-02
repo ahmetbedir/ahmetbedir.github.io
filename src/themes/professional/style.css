@@ -3,19 +3,19 @@
   font-family: LatinModern;
   font-style: normal;
   font-weight: normal;
-  src: url("fonts/lmroman10-regular.otf") format("opentype");
+  src: url("https://registry.jsonresume.org/fonts/lmroman10-regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: LatinModern;
   font-weight: bold;
-  src: url("fonts/lmroman10-bold.otf") format("opentype");
+  src: url("https://registry.jsonresume.org/fonts/lmroman10-bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: LatinModern;
   font-style: italic;
-  src: url("fonts/lmroman10-italic.otf") format("opentype");
+  src: url("https://registry.jsonresume.org/fonts/lmroman10-italic.otf") format("opentype");
 }
 
 html {
@@ -189,6 +189,10 @@ ul {
   font-style: italic;
   font-size: 1.4rem;
   margin-bottom: 3px;
+}
+.work-company a, .education-institution a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .work-summary {
