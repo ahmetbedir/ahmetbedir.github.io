@@ -899,8 +899,57 @@ a {
   }
 }
 
+/* Selected Work case studies */
+.case-card:hover {
+  transform: none;
+}
+
+.case-role {
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.case-link {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.case-link:hover {
+  color: var(--accent);
+}
+
+.case-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.case-steps {
+  margin: 0 0 18px;
+}
+
+.case-steps dt {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+.case-steps dd {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
     </style>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ahmet Bedir","jobTitle":"Senior Lead Software Engineer","url":"https://ahmetbedir.dev","image":"https://avatars.githubusercontent.com/u/10426366?s=400&u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&v=4","email":"mailto:ahmetbedir16@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Bursa","addressCountry":"TR"},"sameAs":["https://www.linkedin.com/in/ahmet-bedir","https://github.com/ahmetbedir"],"worksFor":{"@type":"Organization","name":"The Despatch Company","url":"https://thedespatchcompany.com"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Anadolu University"},{"@type":"CollegeOrUniversity","name":"Dumlupınar University"}],"knowsAbout":["PHP","Laravel","Filament","Livewire","Pest","JavaScript","TypeScript","Vue.js","Nuxt.js","React","Next.js","Node.js","PostgreSQL","MySQL","ClickHouse","Redis","Laravel Horizon","MongoDB","Docker","Laravel Forge","DigitalOcean","AWS S3","Bitbucket Pipelines","GitHub Actions","Linux","Nginx","Sentry","RESTful API Design","GraphQL","Microservices","Marketplace & Carrier API Integrations","OAuth2","Queue-Driven Architecture","Performance Tuning","TDD","Claude Code","MCP Servers","LLM-Driven Code Review","Agentic Workflows","Team Leadership","Mentoring","Code Review","Release Management","Agile/Scrum","Git","Bitbucket","GitHub","Jira","PHPStan/Larastan","Vite"]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ahmet Bedir","jobTitle":"Senior Lead Software Engineer","url":"https://ahmetbedir.dev","image":"https://avatars.githubusercontent.com/u/10426366?s=400&u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&v=4","email":"mailto:ahmetbedir16@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Bursa","addressCountry":"TR"},"sameAs":["https://www.linkedin.com/in/ahmet-bedir","https://github.com/ahmetbedir"],"worksFor":{"@type":"Organization","name":"The Despatch Company","url":"https://thedespatchcompany.com"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"Anadolu University"},{"@type":"CollegeOrUniversity","name":"Dumlupınar University"}],"knowsAbout":["PHP","Laravel","Filament","Livewire","Pest","PHPStan/Larastan","JavaScript","TypeScript","Vue.js","Nuxt.js","React","Next.js","Node.js","Vite","PostgreSQL","MySQL","ClickHouse","Redis","Laravel Horizon","Docker","Laravel Forge","DigitalOcean","AWS S3","Bitbucket Pipelines","GitHub Actions","Git","Linux","Nginx","Sentry","RESTful API Design","GraphQL","Microservices","Marketplace & Carrier API Integrations","OAuth2","Queue-Driven Architecture","Performance Tuning","Claude Code","MCP Servers","LLM-Driven Code Review","Agentic Workflows","Team Leadership","Mentoring","Code Review","Release Management","Agile/Scrum","Jira"]}</script>
   </head>
   <body>
     <div class="bg-glow" aria-hidden="true"></div>
@@ -913,6 +962,7 @@ a {
         </a>
 
         <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -945,7 +995,7 @@ a {
 
             <h1>Ahmet Bedir</h1>
             <div class="hero-role">Senior Lead Software Engineer</div>
-            <p class="hero-summary">Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team&#x27;s delivery. Open to remote roles and relocation.</p>
+            <p class="hero-summary">I lead the engineering team behind a multi-channel commerce platform that connects retailers to 90+ marketplaces, carts and logistics providers, and I build AI tooling that helps the team ship faster.</p>
 
             <div class="hero-actions">
               <a class="btn btn-primary" href="resume/ahmetbedir.pdf" download="Ahmet-Bedir-Resume.pdf">
@@ -998,10 +1048,66 @@ a {
         </div>
       </header>
 
+      <section id="work" class="section reveal">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker mono">01 / Selected Work</div>
+            <h2 class="section-title">What I Build</h2>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card case-card">
+            <div>
+              <div class="project-top">
+                <span class="case-role mono">Team lead</span>
+                <a class="case-link mono" href="https://heyneuro.io" target="_blank" rel="noopener noreferrer">heyneuro.io ↗</a>
+              </div>
+              <h3 class="project-name">Neuro</h3>
+              <p class="case-subtitle">Multi-channel commerce integration platform</p>
+              <dl class="case-steps">
+                <dt class="mono">Problem</dt><dd>Retailers selling across dozens of marketplaces and carts need products, stock, orders and fulfilments kept in sync without manual work.</dd>
+                <dt class="mono">Approach</dt><dd>Lead the team building a Laravel platform on a shared channel abstraction for 65+ sales channels and 25+ 3PL and logistics providers, with queue-driven sync and a rule engine for order routing.</dd>
+                <dt class="mono">Outcome</dt><dd>Millions of orders, stock updates and events processed every day, a ~38% faster rule engine in production and safer automated multi-server deployments.</dd>
+              </dl>
+            </div>
+            <ul class="tag-list">
+              <li class="tag mono">Laravel</li>
+              <li class="tag mono">PostgreSQL</li>
+              <li class="tag mono">Redis</li>
+              <li class="tag mono">Horizon</li>
+              <li class="tag mono">ClickHouse</li>
+              <li class="tag mono">Next.js</li>
+            </ul>
+          </article>
+          <article class="project-card case-card">
+            <div>
+              <div class="project-top">
+                <span class="case-role mono">Designer and developer</span>
+              </div>
+              <h3 class="project-name">AI developer tooling</h3>
+              <p class="case-subtitle">Internal tools for the Neuro team</p>
+              <dl class="case-steps">
+                <dt class="mono">Problem</dt><dd>Reviews and incident investigations meant jumping between Jira, support tickets, error tracking, queue dashboards and code to gather context by hand.</dd>
+                <dt class="mono">Approach</dt><dd>Built an MCP server that gives Claude Code access to Jira, Freshdesk, Sentry and Horizon, and a Laravel and Filament app that reviews pull requests against their Jira tasks with Claude Code and manages release candidates and branches.</dd>
+                <dt class="mono">Outcome</dt><dd>Every review and investigation starts with the task, ticket and error context already gathered, and release branches are prepared from one place.</dd>
+              </dl>
+            </div>
+            <ul class="tag-list">
+              <li class="tag mono">PHP</li>
+              <li class="tag mono">Laravel Zero</li>
+              <li class="tag mono">Laravel MCP</li>
+              <li class="tag mono">Filament</li>
+              <li class="tag mono">Claude Code</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
       <section id="experience" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">01 / Career</div>
+            <div class="section-kicker mono">02 / Career</div>
             <h2 class="section-title">Work Experience</h2>
           </div>
         </div>
@@ -1118,7 +1224,7 @@ a {
       <section id="projects" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">02 / Open Source</div>
+            <div class="section-kicker mono">03 / Open Source</div>
             <h2 class="section-title">Featured Projects</h2>
           </div>
           <a class="mono" style="font-size:0.84rem;color:var(--accent)" href="https://github.com/ahmetbedir" target="_blank" rel="noopener noreferrer">
@@ -1187,7 +1293,7 @@ a {
       <section id="skills" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">03 / Toolkit</div>
+            <div class="section-kicker mono">04 / Toolkit</div>
             <h2 class="section-title">Technical Skills</h2>
           </div>
         </div>
@@ -1201,6 +1307,7 @@ a {
               <li class="tag mono">Filament</li>
               <li class="tag mono">Livewire</li>
               <li class="tag mono">Pest</li>
+              <li class="tag mono">PHPStan/Larastan</li>
               <li class="tag mono">JavaScript</li>
               <li class="tag mono">TypeScript</li>
               <li class="tag mono">Vue.js</li>
@@ -1208,6 +1315,7 @@ a {
               <li class="tag mono">React</li>
               <li class="tag mono">Next.js</li>
               <li class="tag mono">Node.js</li>
+              <li class="tag mono">Vite</li>
             </ul>
           </div>
           <div class="skill-card">
@@ -1218,7 +1326,6 @@ a {
               <li class="tag mono">ClickHouse</li>
               <li class="tag mono">Redis</li>
               <li class="tag mono">Laravel Horizon</li>
-              <li class="tag mono">MongoDB</li>
             </ul>
           </div>
           <div class="skill-card">
@@ -1230,6 +1337,7 @@ a {
               <li class="tag mono">AWS S3</li>
               <li class="tag mono">Bitbucket Pipelines</li>
               <li class="tag mono">GitHub Actions</li>
+              <li class="tag mono">Git</li>
               <li class="tag mono">Linux</li>
               <li class="tag mono">Nginx</li>
               <li class="tag mono">Sentry</li>
@@ -1245,7 +1353,6 @@ a {
               <li class="tag mono">OAuth2</li>
               <li class="tag mono">Queue-Driven Architecture</li>
               <li class="tag mono">Performance Tuning</li>
-              <li class="tag mono">TDD</li>
             </ul>
           </div>
           <div class="skill-card">
@@ -1265,17 +1372,7 @@ a {
               <li class="tag mono">Code Review</li>
               <li class="tag mono">Release Management</li>
               <li class="tag mono">Agile/Scrum</li>
-            </ul>
-          </div>
-          <div class="skill-card">
-            <h3 class="skill-card-title">Tools</h3>
-            <ul class="tag-list">
-              <li class="tag mono">Git</li>
-              <li class="tag mono">Bitbucket</li>
-              <li class="tag mono">GitHub</li>
               <li class="tag mono">Jira</li>
-              <li class="tag mono">PHPStan/Larastan</li>
-              <li class="tag mono">Vite</li>
             </ul>
           </div>
         </div>
@@ -1284,7 +1381,7 @@ a {
       <section id="education" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">04 / Background</div>
+            <div class="section-kicker mono">05 / Background</div>
             <h2 class="section-title">Education &amp; Languages</h2>
           </div>
         </div>

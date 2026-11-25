@@ -25,7 +25,8 @@
         "url": "https://github.com/ahmetbedir"
       }
     ],
-    "image": "https://avatars.githubusercontent.com/u/10426366?s=400&u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&v=4"
+    "image": "https://avatars.githubusercontent.com/u/10426366?s=400&u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&v=4",
+    "pitch": "I lead the engineering team behind a multi-channel commerce platform that connects retailers to 90+ marketplaces, carts and logistics providers, and I build AI tooling that helps the team ship faster."
   },
   "work": [
     {
@@ -110,13 +111,15 @@
         "Filament",
         "Livewire",
         "Pest",
+        "PHPStan/Larastan",
         "JavaScript",
         "TypeScript",
         "Vue.js",
         "Nuxt.js",
         "React",
         "Next.js",
-        "Node.js"
+        "Node.js",
+        "Vite"
       ]
     },
     {
@@ -126,8 +129,7 @@
         "MySQL",
         "ClickHouse",
         "Redis",
-        "Laravel Horizon",
-        "MongoDB"
+        "Laravel Horizon"
       ]
     },
     {
@@ -139,6 +141,7 @@
         "AWS S3",
         "Bitbucket Pipelines",
         "GitHub Actions",
+        "Git",
         "Linux",
         "Nginx",
         "Sentry"
@@ -153,8 +156,7 @@
         "Marketplace & Carrier API Integrations",
         "OAuth2",
         "Queue-Driven Architecture",
-        "Performance Tuning",
-        "TDD"
+        "Performance Tuning"
       ]
     },
     {
@@ -173,18 +175,8 @@
         "Mentoring",
         "Code Review",
         "Release Management",
-        "Agile/Scrum"
-      ]
-    },
-    {
-      "name": "Tools",
-      "keywords": [
-        "Git",
-        "Bitbucket",
-        "GitHub",
-        "Jira",
-        "PHPStan/Larastan",
-        "Vite"
+        "Agile/Scrum",
+        "Jira"
       ]
     }
   ],
@@ -231,6 +223,40 @@
         "Homebrew"
       ],
       "url": "https://github.com/ahmetbedir/mise-php"
+    }
+  ],
+  "selectedWork": [
+    {
+      "name": "Neuro",
+      "subtitle": "Multi-channel commerce integration platform",
+      "role": "Team lead",
+      "url": "https://heyneuro.io",
+      "problem": "Retailers selling across dozens of marketplaces and carts need products, stock, orders and fulfilments kept in sync without manual work.",
+      "approach": "Lead the team building a Laravel platform on a shared channel abstraction for 65+ sales channels and 25+ 3PL and logistics providers, with queue-driven sync and a rule engine for order routing.",
+      "outcome": "Millions of orders, stock updates and events processed every day, a ~38% faster rule engine in production and safer automated multi-server deployments.",
+      "keywords": [
+        "Laravel",
+        "PostgreSQL",
+        "Redis",
+        "Horizon",
+        "ClickHouse",
+        "Next.js"
+      ]
+    },
+    {
+      "name": "AI developer tooling",
+      "subtitle": "Internal tools for the Neuro team",
+      "role": "Designer and developer",
+      "problem": "Reviews and incident investigations meant jumping between Jira, support tickets, error tracking, queue dashboards and code to gather context by hand.",
+      "approach": "Built an MCP server that gives Claude Code access to Jira, Freshdesk, Sentry and Horizon, and a Laravel and Filament app that reviews pull requests against their Jira tasks with Claude Code and manages release candidates and branches.",
+      "outcome": "Every review and investigation starts with the task, ticket and error context already gathered, and release branches are prepared from one place.",
+      "keywords": [
+        "PHP",
+        "Laravel Zero",
+        "Laravel MCP",
+        "Filament",
+        "Claude Code"
+      ]
     }
   ]
 }

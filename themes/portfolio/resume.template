@@ -45,6 +45,7 @@
         </a>
 
         <ul class="nav-links">
+          {{#if resume.selectedWork.length}}<li><a href="#work">Work</a></li>{{/if}}
           <li><a href="#experience">Experience</a></li>
           {{#if resume.projects.length}}<li><a href="#projects">Projects</a></li>{{/if}}
           <li><a href="#skills">Skills</a></li>
@@ -79,7 +80,9 @@
             {{#if resume.basics.label}}
             <div class="hero-role">{{resume.basics.label}}</div>
             {{/if}}
-            {{#if resume.basics.summary}}
+            {{#if resume.basics.pitch}}
+            <p class="hero-summary">{{resume.basics.pitch}}</p>
+            {{else if resume.basics.summary}}
             <p class="hero-summary">{{resume.basics.summary}}</p>
             {{/if}}
 
@@ -143,11 +146,51 @@
         </div>
       </header>
 
+      {{#if resume.selectedWork.length}}
+      <section id="work" class="section reveal">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker mono">01 / Selected Work</div>
+            <h2 class="section-title">What I Build</h2>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          {{#each resume.selectedWork}}
+          <article class="project-card case-card">
+            <div>
+              <div class="project-top">
+                <span class="case-role mono">{{role}}</span>
+                {{#if url}}
+                <a class="case-link mono" href="{{url}}" target="_blank" rel="noopener noreferrer">{{stripProtocol url}} ↗</a>
+                {{/if}}
+              </div>
+              <h3 class="project-name">{{name}}</h3>
+              <p class="case-subtitle">{{subtitle}}</p>
+              <dl class="case-steps">
+                <dt class="mono">Problem</dt><dd>{{problem}}</dd>
+                <dt class="mono">Approach</dt><dd>{{approach}}</dd>
+                <dt class="mono">Outcome</dt><dd>{{outcome}}</dd>
+              </dl>
+            </div>
+            {{#if keywords.length}}
+            <ul class="tag-list">
+              {{#each keywords}}
+              <li class="tag mono">{{this}}</li>
+              {{/each}}
+            </ul>
+            {{/if}}
+          </article>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+
       {{#if resume.work.length}}
       <section id="experience" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">01 / Career</div>
+            <div class="section-kicker mono">02 / Career</div>
             <h2 class="section-title">Work Experience</h2>
           </div>
         </div>
@@ -196,7 +239,7 @@
       <section id="projects" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">02 / Open Source</div>
+            <div class="section-kicker mono">03 / Open Source</div>
             <h2 class="section-title">Featured Projects</h2>
           </div>
           <a class="mono" style="font-size:0.84rem;color:var(--accent)" href="https://github.com/ahmetbedir" target="_blank" rel="noopener noreferrer">
@@ -234,7 +277,7 @@
       <section id="skills" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">03 / Toolkit</div>
+            <div class="section-kicker mono">04 / Toolkit</div>
             <h2 class="section-title">Technical Skills</h2>
           </div>
         </div>
@@ -259,7 +302,7 @@
       <section id="education" class="section reveal">
         <div class="section-head">
           <div>
-            <div class="section-kicker mono">04 / Background</div>
+            <div class="section-kicker mono">05 / Background</div>
             <h2 class="section-title">Education &amp; Languages</h2>
           </div>
         </div>

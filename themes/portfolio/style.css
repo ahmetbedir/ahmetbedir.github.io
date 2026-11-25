@@ -866,3 +866,52 @@ a {
     transform: none !important;
   }
 }
+
+/* Selected Work case studies */
+.case-card:hover {
+  transform: none;
+}
+
+.case-role {
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.case-link {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.case-link:hover {
+  color: var(--accent);
+}
+
+.case-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.case-steps {
+  margin: 0 0 18px;
+}
+
+.case-steps dt {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+.case-steps dd {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
