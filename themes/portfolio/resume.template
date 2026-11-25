@@ -121,18 +121,18 @@
         <div class="bento-strip">
           <div class="bento-card">
             <div class="bento-label mono">Experience</div>
-            <div class="bento-value">10+ Years</div>
-            <div class="bento-sub">SaaS &amp; E-Commerce</div>
+            <div class="bento-value">8+ Years</div>
+            <div class="bento-sub">Engineering team lead</div>
           </div>
           <div class="bento-card">
             <div class="bento-label mono">Primary Stack</div>
             <div class="bento-value">PHP / Laravel</div>
-            <div class="bento-sub">Vue.js · Livewire · Filament</div>
+            <div class="bento-sub">PostgreSQL · Redis · Horizon</div>
           </div>
           <div class="bento-card">
-            <div class="bento-label mono">Infrastructure</div>
-            <div class="bento-value">AWS &amp; Docker</div>
-            <div class="bento-sub">PostgreSQL · Redis · CI/CD</div>
+            <div class="bento-label mono">Focus</div>
+            <div class="bento-value">50+ Integrations</div>
+            <div class="bento-sub">Marketplaces · Carriers · AI tooling</div>
           </div>
           <div class="bento-card">
             <div class="bento-label mono">Location</div>

@@ -4,11 +4,11 @@
   },
   "basics": {
     "name": "Ahmet Bedir",
-    "label": "Senior Full-Stack Developer",
+    "label": "Senior Lead Software Engineer",
     "email": "ahmetbedir16@gmail.com",
     "phone": "+905444866138",
     "url": "https://ahmetbedir.dev",
-    "summary": "Senior Full-Stack Developer with 10+ years of experience leading the development of enterprise-grade SaaS, marketplace, and e-commerce platforms. Deep expertise in PHP/Laravel, system architecture, microservices, and API integrations. Known for improving performance, reducing operational bottlenecks, and driving engineering excellence. Strong background in Docker, CI/CD automation, cloud infrastructure, and Agile delivery.",
+    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 50+ marketplaces, carts and accounting systems and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team's delivery.",
     "location": {
       "city": "Bursa",
       "countryCode": "TR"
@@ -32,13 +32,31 @@
       "name": "The Despatch Company",
       "position": "Senior Lead Developer",
       "url": "https://thedespatchcompany.com",
-      "startDate": "2022-01-01",
-      "summary": "Leading backend architecture and full-stack delivery for a SaaS platform streamlining multi-channel e-commerce and logistics operations.",
+      "startDate": "2023-10-01",
+      "summary": "Leading development of Neuro, a multi-channel commerce platform that pulls orders and products from 50+ sales channels, syncs stock and fulfilments back, and routes orders to logistics and accounting systems.",
       "highlights": [
-        "Architected and built scalable SaaS e-commerce and multi-channel logistics integrations using PHP, Laravel, PostgreSQL, and Redis.",
-        "Designed RESTful API-driven microservices and modules for order processing, inventory synchronization, and warehouse workflows.",
-        "Engineered real-time shipment tracking and branded customer return portals with Vue.js, Livewire, and Filament.",
-        "Managed AWS (EC2, S3) and Docker-based infrastructure, CI/CD pipelines via GitHub Actions, and mentored developers through code reviews."
+        "Team lead of the Neuro engineering team (code review, task planning, release management) on a Laravel, PostgreSQL and Redis platform, owning architecture decisions and production stability.",
+        "Built and maintained integrations with Amazon SP-API and Vendor Central, eBay, Shopify, TikTok Shop, Etsy, Walmart, Mirakl, Magento, Medusa and QuickBooks Online, plus 3PL fulfilment plugins.",
+        "Run high-volume, queue-driven processing that handles millions of orders, stock updates and events every day; lead root-cause analysis of production incidents and turn findings into lasting fixes.",
+        "Improved platform performance through query, queue and caching optimisations, including a ~38% faster rule engine in production, and led major PHP and Laravel version upgrades.",
+        "Designing a data archiving strategy with ClickHouse to keep the primary database lean as data volumes grow.",
+        "Automated multi-server deployments with zero-downtime queue handling and clear failure reporting in CI/CD, and led a cloud object storage migration.",
+        "Built AI developer tooling for the team: an MCP server that gives Claude Code access to Jira, Freshdesk, Sentry and Horizon, and an application that reviews pull requests against their Jira tasks with Claude Code and manages release candidates and branches.",
+        "Contributed to migrating the frontend from Nuxt 2 / Vue 2 to Next.js and React, and maintain a multi-tenant log storage microservice used by other internal APIs."
+      ]
+    },
+    {
+      "name": "The Despatch Company",
+      "position": "Senior Full-Stack Developer",
+      "url": "https://thedespatchcompany.com",
+      "startDate": "2022-01-01",
+      "endDate": "2023-10-01",
+      "summary": "Worked across the company's logistics and e-commerce products: Helm WMS, the Voila shipping platform, the Tracking API and the rydale.com e-commerce platform.",
+      "highlights": [
+        "Developed features for Helm WMS, the company's warehouse management system, during the first months.",
+        "Built courier and carrier integrations for Voila, the company's multi-carrier shipping platform.",
+        "Worked on the Tracking API, delivering shipment tracking and branded customer-facing tracking and returns pages.",
+        "Developed the rydale.com e-commerce platform from scratch over a long-running project, covering architecture, catalogue, ordering flows and integrations through to launch."
       ]
     },
     {
@@ -91,37 +109,61 @@
         "Laravel",
         "Filament",
         "Livewire",
+        "Pest",
         "JavaScript",
-        "Node.js",
+        "TypeScript",
         "Vue.js",
-        "Nuxt.js"
+        "Nuxt.js",
+        "React",
+        "Next.js",
+        "Node.js"
       ]
     },
     {
-      "name": "Databases & Caching",
-      "keywords": ["PostgreSQL", "MySQL", "Redis", "MongoDB"]
+      "name": "Databases & Queues",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "ClickHouse",
+        "Redis",
+        "Laravel Horizon",
+        "MongoDB"
+      ]
     },
     {
       "name": "DevOps & Infrastructure",
       "keywords": [
-        "AWS (EC2, S3)",
         "Docker",
-        "CI/CD",
+        "Laravel Forge",
+        "DigitalOcean",
+        "AWS S3",
+        "Bitbucket Pipelines",
         "GitHub Actions",
         "Linux",
-        "Server Maintenance"
+        "Nginx",
+        "Sentry"
       ]
     },
     {
-      "name": "Architecture & Methodologies",
+      "name": "Architecture & Integrations",
       "keywords": [
-        "MVC",
         "RESTful API Design",
+        "GraphQL",
         "Microservices",
-        "Agile/Scrum",
-        "TDD",
-        "Design Patterns",
-        "Component Based Architecture"
+        "Marketplace & Carrier API Integrations",
+        "OAuth2",
+        "Queue-Driven Architecture",
+        "Performance Tuning",
+        "TDD"
+      ]
+    },
+    {
+      "name": "AI-Assisted Engineering",
+      "keywords": [
+        "Claude Code",
+        "MCP Servers",
+        "LLM-Driven Code Review",
+        "Agentic Workflows"
       ]
     },
     {
@@ -130,12 +172,20 @@
         "Team Leadership",
         "Mentoring",
         "Code Review",
-        "Technical Architecture"
+        "Release Management",
+        "Agile/Scrum"
       ]
     },
     {
       "name": "Tools",
-      "keywords": ["Git", "GitHub", "Bitbucket", "Jira", "Webpack"]
+      "keywords": [
+        "Git",
+        "Bitbucket",
+        "GitHub",
+        "Jira",
+        "PHPStan/Larastan",
+        "Vite"
+      ]
     }
   ],
   "languages": [
@@ -152,14 +202,35 @@
     {
       "name": "bb — Bitbucket CLI",
       "description": "Command-line interface for Bitbucket Cloud built in PHP to streamline pull requests, pipelines, deployments, and repository workflows directly from the terminal.",
-      "keywords": ["PHP", "CLI", "Bitbucket API", "Developer Tools"],
+      "keywords": [
+        "PHP",
+        "CLI",
+        "Bitbucket API",
+        "Developer Tools"
+      ],
       "url": "https://github.com/ahmetbedir/bb"
     },
     {
       "name": "pbin — PrivateBin CLI",
       "description": "Zero-knowledge encrypted paste CLI tool for PrivateBin servers, enabling secure terminal-to-browser snippet sharing with client-side encryption.",
-      "keywords": ["PHP", "CLI", "Encryption", "Security"],
+      "keywords": [
+        "PHP",
+        "CLI",
+        "Encryption",
+        "Security"
+      ],
       "url": "https://github.com/ahmetbedir/pbin"
+    },
+    {
+      "name": "Portable PHP Toolchain",
+      "description": "Release pipeline for standalone static PHP binaries, a mise plugin to install them and a Homebrew tap that distributes the bb and pbin CLIs.",
+      "keywords": [
+        "PHP",
+        "CI/CD",
+        "mise",
+        "Homebrew"
+      ],
+      "url": "https://github.com/ahmetbedir/mise-php"
     }
   ]
 }
