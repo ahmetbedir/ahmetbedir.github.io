@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Ahmet Bedir",
-    "label": "Senior Software Developer",
+    "label": "Senior Full-Stack Developer",
     "email": "ahmetbedir16@gmail.com",
     "phone": "+905444866138",
     "url": "https://ahmetbedir.dev",
@@ -33,25 +33,25 @@
       "position": "Senior Lead Developer",
       "url": "https://thedespatchcompany.com",
       "startDate": "2022-01-01",
-      "summary": "Developing SaaS-based software solutions to streamline e-commerce operations for clients. Responsibilities include backend development, server maintenance, and system management. Contributed to order and inventory management systems, multi-channel sales integrations, branded return portals, and real-time shipment tracking.",
+      "summary": "Leading backend architecture and full-stack delivery for a SaaS platform streamlining multi-channel e-commerce and logistics operations.",
       "highlights": [
-        "Built scalable SaaS-based e-commerce and logistics integrations.",
-        "Developed API-driven modules for order and inventory management.",
-        "Implemented real-time shipment tracking and branded return portals.",
-        "Maintained server infrastructure and optimized system performance."
+        "Architected and built scalable SaaS e-commerce and multi-channel logistics integrations using PHP, Laravel, PostgreSQL, and Redis.",
+        "Designed RESTful API-driven microservices and modules for order processing, inventory synchronization, and warehouse workflows.",
+        "Engineered real-time shipment tracking and branded customer return portals with Vue.js, Livewire, and Filament.",
+        "Managed AWS (EC2, S3) and Docker-based infrastructure, CI/CD pipelines via GitHub Actions, and mentored developers through code reviews."
       ]
     },
     {
       "name": "Tek Kılavuz Digital Performance Agency",
       "url": "https://www.tekkilavuz.com.tr",
       "position": "Software Developer",
-      "startDate": "2018-01-01",
+      "startDate": "2018-11-01",
       "endDate": "2022-01-01",
-      "summary": "Developed e-commerce platforms, CRM systems, and custom business applications. Managed server maintenance and ensured system scalability for multiple digital projects.",
+      "summary": "Developed custom e-commerce platforms, CRM applications, and business automation software for agency clients.",
       "highlights": [
-        "Delivered scalable and high-performance e-commerce solutions.",
-        "Developed CRM and custom business automation systems.",
-        "Maintained hosting environments and optimized web servers."
+        "Delivered high-performance e-commerce platforms and custom web applications using PHP, Laravel, JavaScript, Vue.js, and MySQL.",
+        "Built tailored CRM and business automation systems to streamline client sales, reporting, and operational workflows.",
+        "Administered Linux hosting environments, optimized web servers and database queries, and ensured high availability across client projects."
       ]
     },
     {
@@ -60,22 +60,10 @@
       "position": "Technical Support Specialist",
       "startDate": "2017-02-01",
       "endDate": "2018-10-01",
-      "summary": "Provided technical support and troubleshooting for hospital management system software. Ensured stability, performance, and user satisfaction across healthcare institutions.",
+      "summary": "Provided technical support, troubleshooting, and operational maintenance for hospital information management systems.",
       "highlights": [
-        "Resolved system issues for hospital information management systems.",
-        "Improved system uptime and user experience for healthcare staff."
-      ]
-    },
-    {
-      "name": "Dumlupınar University Evliya Celebi Training and Research Hospital",
-      "url": "https://evliyacelebieah.saglik.gov.tr/",
-      "position": "Intern",
-      "startDate": "2013-09-01",
-      "endDate": "2014-06-01",
-      "summary": "Worked on IT infrastructure and software optimization for the hospital. Supported technical troubleshooting and system enhancements.",
-      "highlights": [
-        "Performed software and hardware optimizations.",
-        "Improved IT infrastructure reliability and efficiency."
+        "Diagnosed and resolved production software and database issues for hospital information management systems across healthcare institutions.",
+        "Collaborated with engineering teams to improve system uptime, stability, and day-to-day usability for healthcare staff."
       ]
     }
   ],
@@ -84,27 +72,20 @@
       "institution": "Anadolu University",
       "area": "Web Design and Development",
       "studyType": "Associate Degree",
-      "startDate": "2019-09-01"
+      "startDate": "2019-09-01",
+      "endDate": "2024-06-01"
     },
     {
-      "institution": "Dumlupinar University",
+      "institution": "Dumlupınar University",
       "area": "Computer Programming",
       "studyType": "Associate Degree",
       "startDate": "2014-09-01",
       "endDate": "2017-06-01"
-    },
-    {
-      "institution": "Anatolian Technical and Industrial Vocational High School",
-      "area": "Information Technologies",
-      "studyType": "High School",
-      "startDate": "2010-09-01",
-      "endDate": "2014-06-01"
     }
   ],
   "skills": [
     {
       "name": "Languages & Frameworks",
-      "level": "",
       "keywords": [
         "PHP",
         "Laravel",
@@ -118,12 +99,10 @@
     },
     {
       "name": "Databases & Caching",
-      "level": "",
       "keywords": ["PostgreSQL", "MySQL", "Redis", "MongoDB"]
     },
     {
       "name": "DevOps & Infrastructure",
-      "level": "",
       "keywords": [
         "AWS (EC2, S3)",
         "Docker",
@@ -135,7 +114,6 @@
     },
     {
       "name": "Architecture & Methodologies",
-      "level": "",
       "keywords": [
         "MVC",
         "RESTful API Design",
@@ -148,7 +126,6 @@
     },
     {
       "name": "Leadership & Collaboration",
-      "level": "",
       "keywords": [
         "Team Leadership",
         "Mentoring",
@@ -158,7 +135,7 @@
     },
     {
       "name": "Tools",
-      "keywords": ["Git", "VS Code", "Webpack", "Bitbucket", "Jira", "GitHub"]
+      "keywords": ["Git", "GitHub", "Bitbucket", "Jira", "Webpack"]
     }
   ],
   "languages": [

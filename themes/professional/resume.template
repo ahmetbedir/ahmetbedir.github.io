@@ -12,6 +12,9 @@
     <div class="container">
       <header class="header">
         <h1>{{resume.basics.name}}</h1>
+        {{#if resume.basics.label}}
+        <div class="label">{{resume.basics.label}}</div>
+        {{/if}}
         <div class="contact-info">
           {{#if resume.basics.location}}
           <span class="contact-item">
@@ -110,6 +113,27 @@
       {{/if}}
       {{/if}}
 
+      {{#if resume.skills}}
+      {{#if resume.skills.length}}
+      <section class="section">
+        <h2>Skills</h2>
+        <hr>
+        <div class="section-content">
+          {{#each resume.skills}}
+          <div class="skill-category">
+            <span class="skill-name">{{name}}{{#if level}}: {{level}}{{/if}}</span>
+            {{#if keywords}}
+            {{#if keywords.length}}
+            <span class="skill-keywords">{{join keywords ", "}}</span>
+            {{/if}}
+            {{/if}}
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+      {{/if}}
+
       {{#if resume.education}}
       {{#if resume.education.length}}
       <section class="section">
@@ -153,27 +177,6 @@
           <div class="language-item">
             <span class="language-name">{{language}}:</span>
             <span class="language-fluency secondary">{{fluency}}</span>
-          </div>
-          {{/each}}
-        </div>
-      </section>
-      {{/if}}
-      {{/if}}
-
-      {{#if resume.skills}}
-      {{#if resume.skills.length}}
-      <section class="section">
-        <h2>Skills</h2>
-        <hr>
-        <div class="section-content">
-          {{#each resume.skills}}
-          <div class="skill-category">
-            <span class="skill-name">{{name}}{{#if level}}: {{level}}{{/if}}</span>
-            {{#if keywords}}
-            {{#if keywords.length}}
-            <span class="skill-keywords">{{join keywords ", "}}</span>
-            {{/if}}
-            {{/if}}
           </div>
           {{/each}}
         </div>

@@ -56,7 +56,6 @@ body {
 
 .section {
   margin-bottom: 20px;
-  page-break-inside: avoid;
 }
 
 .section-title {
@@ -68,6 +67,8 @@ body {
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  break-after: avoid;
+  page-break-after: avoid;
 }
 
 .summary {
@@ -208,16 +209,19 @@ body {
   font-style: italic;
 }
 
+@page {
+  size: A4;
+  margin: 14mm 15mm;
+}
+
 @media print {
   body {
     padding: 0;
+    max-width: 100%;
   }
-  
-  .section {
-    page-break-inside: avoid;
-  }
-  
-  .work-item, .education-item {
+
+  .work-item, .education-item, .reference-item {
+    break-inside: avoid;
     page-break-inside: avoid;
   }
 }

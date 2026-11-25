@@ -25,7 +25,7 @@ if (!/^[a-z0-9-]+$/.test(themeName)) {
   process.exit(1);
 }
 
-const themeDir = join(__dirname, '..', 'src', 'themes', themeName);
+const themeDir = join(__dirname, '..', 'themes', themeName);
 const packageName = `jsonresume-theme-${themeName}`;
 
 // Check if theme already exists
@@ -349,7 +349,7 @@ if (!rootPackageJson.dependencies) {
   rootPackageJson.dependencies = {};
 }
 
-rootPackageJson.dependencies[packageName] = `file:./src/themes/${themeName}`;
+rootPackageJson.dependencies[packageName] = `file:./themes/${themeName}`;
 
 fs.writeFileSync(
   rootPackageJsonPath,

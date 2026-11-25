@@ -14,7 +14,7 @@
 		body { font-size: 12px; }
 	</style>
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
 	
 	</head>
 	<body>
@@ -36,7 +36,11 @@
 					{{phone}}
 				</span>
 				{{/if}}
-				{{#if website}}
+				{{#if url}}
+				<span class="detail">
+					<a href="{{url}}">{{url}}</a>
+				</span>
+				{{else if website}}
 				<span class="detail">
 					<a href="{{website}}">{{website}}</a>
 				</span>
@@ -101,7 +105,9 @@
 		{{#each resume.work}}
 		<section class="item">
 			<header>
-				{{#if company}}
+				{{#if name}}
+					<h3 class="name">{{name}}</h3>
+				{{else if company}}
 					<h3 class="name">{{company}}</h3>
 				{{/if}}
 			</header>
