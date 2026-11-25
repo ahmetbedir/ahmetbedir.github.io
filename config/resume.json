@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Ahmet Bedir",
-    "label": "Senior PHP & Laravel Developer",
+    "label": "Senior Software Developer",
     "email": "ahmetbedir16@gmail.com",
     "phone": "+905444866138",
     "url": "https://ahmetbedir.dev",
@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "The Despatch Company",
-      "position": "Senior Software Developer",
+      "position": "Senior Lead Developer",
       "url": "https://thedespatchcompany.com",
       "startDate": "2022-01-01",
       "summary": "Developing SaaS-based software solutions to streamline e-commerce operations for clients. Responsibilities include backend development, server maintenance, and system management. Contributed to order and inventory management systems, multi-channel sales integrations, branded return portals, and real-time shipment tracking.",
