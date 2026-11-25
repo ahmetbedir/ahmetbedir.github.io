@@ -1,0 +1,9 @@
+{
+  "name": "jsonresume-theme-portfolio",
+  "version": "1.0.0",
+  "description": "Modern dark-first developer portfolio and CV theme",
+  "main": "index.js",
+  "type": "module",
+  "author": "Ahmet Bedir",
+  "license": "ISC"
+}

@@ -101,6 +101,7 @@ ul {
 /* Header Styles */
 .header h1 {
   font-size: 2.8rem;
+  line-height: 1.2;
   text-align: center;
   margin-top: 16px;
   margin-bottom: 4px;
@@ -110,6 +111,7 @@ ul {
 
 .header .label {
   font-size: 1.5rem;
+  line-height: 1.35;
   text-align: center;
   font-style: italic;
   color: #333;
@@ -319,9 +321,10 @@ ul {
   }
 
   .header h1 {
-    margin-top: 0;
+    margin-top: 4px;
     margin-bottom: 2px;
     font-size: 2.5rem;
+    line-height: 1.25;
   }
 
   .header .label {

@@ -147,5 +147,19 @@
       "language": "English",
       "fluency": "Professional working proficiency"
     }
+  ],
+  "projects": [
+    {
+      "name": "bb — Bitbucket CLI",
+      "description": "Command-line interface for Bitbucket Cloud built in PHP to streamline pull requests, pipelines, deployments, and repository workflows directly from the terminal.",
+      "keywords": ["PHP", "CLI", "Bitbucket API", "Developer Tools"],
+      "url": "https://github.com/ahmetbedir/bb"
+    },
+    {
+      "name": "pbin — PrivateBin CLI",
+      "description": "Zero-knowledge encrypted paste CLI tool for PrivateBin servers, enabling secure terminal-to-browser snippet sharing with client-side encryption.",
+      "keywords": ["PHP", "CLI", "Encryption", "Security"],
+      "url": "https://github.com/ahmetbedir/pbin"
+    }
   ]
 }

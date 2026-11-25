@@ -1,328 +1,1376 @@
 <!doctype html>
-    <html lang="en" style="">
-      <head>
-        <meta charset="utf-8" />
-        
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ahmet Bedir — Senior Full-Stack Developer</title>
     <meta name="description" content="Senior Full-Stack Developer with 10+ years of experience leading the development of enterprise-grade SaaS, marketplace, and e-commerce platforms. Deep expertise in PHP/Laravel, system architecture, microservices, and API integrations. Known for improving performance, reducing operational bottlenecks, and driving engineering excellence. Strong background in Docker, CI/CD automation, cloud infrastructure, and Agile delivery." />
-  
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
-        <style>
-          :root{color-scheme:light dark;--color-background-light: #ffffff;--color-dimmed-light: #f3f4f5;--color-primary-light: #191e23;--color-secondary-light: #6c7781;--color-accent-light: #0073aa;--color-background-dark: #191e23;--color-dimmed-dark: #23282d;--color-primary-dark: #fbfbfc;--color-secondary-dark: #ccd0d4;--color-accent-dark: #00a0d2;--color-background: var(--color-background-light);--color-dimmed: var(--color-dimmed-light);--color-primary: var(--color-primary-light);--color-secondary: var(--color-secondary-light);--color-accent: var(--color-accent-light);--scale-ratio: 1.25;--scale0: 1rem;--scale1: calc(var(--scale0) * var(--scale-ratio));--scale2: calc(var(--scale1) * var(--scale-ratio));--scale3: calc(var(--scale2) * var(--scale-ratio));--scale4: calc(var(--scale3) * var(--scale-ratio));--scale5: calc(var(--scale4) * var(--scale-ratio))}@media (prefers-color-scheme: dark){:root{--color-background: var(--color-background-dark);--color-dimmed: var(--color-dimmed-dark);--color-primary: var(--color-primary-dark);--color-secondary: var(--color-secondary-dark);--color-accent: var(--color-accent-dark)}}*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}body{background:var(--color-background);color:var(--color-primary);display:grid;font:1em/1.5 Lato,sans-serif;gap:2em;grid-template-columns:[full-start] 1fr [main-start side-start] minmax(min-content,12em) [side-end content-start] minmax(min-content,36em) [main-end content-end] 1fr [full-end];grid-template-rows:auto [content] 0;margin-bottom:4em}body:before{content:"";grid-column:full;grid-row:content}ol,ul{padding-left:1em}:not(.icon-list,.tag-list)>li+li{margin-top:.4em}li::marker,.network{color:var(--color-secondary)}a{color:var(--color-accent);text-decoration:none}a:focus,a:hover{text-decoration:underline}h1,h2,h3,h5{font-weight:400}h1,h2,h3{line-height:1.2}h1{font-size:var(--scale5)}h2{color:var(--color-secondary);font-size:var(--scale4)}h3{color:var(--color-secondary);font-size:var(--scale3);grid-column:side;margin-bottom:1rem}h4{font-size:var(--scale2)}h5{font-size:var(--scale1)}h6{font-size:var(--scale0)}blockquote{border-left:.2em solid var(--color-dimmed);padding-left:1em}cite{color:var(--color-secondary);font-style:inherit}cite:before{content:"— "}svg{margin-right:.2em;vertical-align:text-bottom}.masthead{background:var(--color-dimmed);display:inherit;gap:inherit;grid-column:full;grid-template-columns:inherit;padding:4em 0;text-align:center}.masthead>*,section{grid-column:main}.masthead>img{border:4px solid;border-radius:50%;margin:0 auto;max-width:12em}article>*+*,blockquote>*+*,.timeline>div>*+*{margin-top:.6em}.meta{color:var(--color-secondary)}.stack{display:grid;gap:1.5em}.icon-list{display:flex;flex-wrap:wrap;gap:.4em 1em;justify-content:center;list-style:none;padding:0}.grid-list{display:grid;gap:1em}.tag-list{display:flex;flex-wrap:wrap;gap:.4em;list-style:none;padding:0}.tag-list>li{background:var(--color-dimmed);border-radius:.2em;padding:.2em .6em}.timeline>div{position:relative}.timeline>div:not(:last-child){padding-bottom:1rem}.timeline>div:not(:last-child):before{content:"";position:absolute;top:1rem;left:-15px;width:2px;height:100%;background:var(--color-secondary)}.timeline>div:not(:only-child):after{content:"";position:absolute;top:.6rem;left:-20px;width:8px;height:8px;background:var(--color-secondary);border:2px solid var(--color-background);border-radius:50%}@media print,(min-width: 48em){h3{text-align:right;margin-bottom:inherit}.masthead{text-align:inherit}.masthead>*,section{grid-column:content}.masthead img{grid-column:side;grid-row:span 2;max-width:100%}section{display:contents}.icon-list{flex-direction:column}.grid-list{grid-template-columns:repeat(auto-fit,minmax(calc((100% - 1em)/2),1fr))}}time+time-duration:before{content:"· "}@media print{time-duration{display:none}}
-        </style>
-        <script type="module">
-          const pluralize = (num, str) => `${num} ${num === 1 ? str : str.concat('s')}`
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%2338bdf8'/%3E%3Cstop offset='100%25' stop-color='%23818cf8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-size='26' font-weight='700'%3EAB%3C/text%3E%3C/svg%3E" />
 
-class TimeDuration extends HTMLElement {
-  connectedCallback() {
-    const dates = this.getAttribute('dates')
-    if (!dates) return this.remove()
-
-    const duration = dates.split('|').reduce((acc, _date, i, dates) => {
-      if (i % 2) return acc
-      const [startDate, endDate] = dates.slice(i)
-      return acc + (startDate ? +new Date(endDate || Date.now()) - +new Date(startDate) : 0)
-    }, 0)
-
-    const diffDate = new Date(duration)
-    const years = diffDate.getFullYear() - 1970
-    const months = diffDate.getMonth()
-    const days = diffDate.getDate() - 1
-
-    const segments = [
-      years && pluralize(years, 'yr'),
-      months && pluralize(months, 'mo'),
-      days && !years && !months && pluralize(days, 'day'),
-    ].filter(Boolean)
-    if (!segments.length) return
-
-    this.textContent = segments.join(' ')
-  }
-}
-
-customElements.define('time-duration', TimeDuration)
-
-        </script>
-      
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23191e23'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23fbfbfc' font-family='sans-serif' font-size='28' font-weight='700'%3EAB%3C/text%3E%3C/svg%3E" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Ahmet Bedir — Senior Full-Stack Developer" />
     <meta property="og:description" content="Senior Full-Stack Developer with 10+ years of experience leading the development of enterprise-grade SaaS, marketplace, and e-commerce platforms. Deep expertise in PHP/Laravel, system architecture, microservices, and API integrations. Known for improving performance, reducing operational bottlenecks, and driving engineering excellence. Strong background in Docker, CI/CD automation, cloud infrastructure, and Agile delivery." />
     <meta property="og:url" content="https://ahmetbedir.dev" />
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/10426366?s=400&amp;u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&amp;v=4" />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/10426366?s&#x3D;400&amp;u&#x3D;8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&amp;v&#x3D;4" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Ahmet Bedir — Senior Full-Stack Developer" />
     <meta name="twitter:description" content="Senior Full-Stack Developer with 10+ years of experience leading the development of enterprise-grade SaaS, marketplace, and e-commerce platforms. Deep expertise in PHP/Laravel, system architecture, microservices, and API integrations. Known for improving performance, reducing operational bottlenecks, and driving engineering excellence. Strong background in Docker, CI/CD automation, cloud infrastructure, and Agile delivery." />
-    <style>
-      .pdf-download-btn {
-        position: fixed;
-        top: 1rem;
-        right: 1rem;
-        z-index: 100;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.45rem;
-        padding: 0.5rem 0.9rem;
-        border-radius: 999px;
-        background: var(--color-accent);
-        color: #ffffff;
-        font-size: 0.9rem;
-        font-weight: 700;
-        text-decoration: none;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
-        transition: opacity 0.15s ease, transform 0.15s ease;
-      }
-      .pdf-download-btn:hover,
-      .pdf-download-btn:focus {
-        opacity: 0.9;
-        transform: translateY(-1px);
-        text-decoration: none;
-      }
-      .pdf-download-btn svg {
-        margin-right: 0;
-        vertical-align: middle;
-      }
-      @media print {
-        .pdf-download-btn {
-          display: none !important;
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <script>
+      (function () {
+        var saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
         }
-      }
+      })();
+    </script>
+
+    <style>
+      :root {
+  --bg: #09090b;
+  --bg-elevated: #111115;
+  --bg-card: rgba(24, 24, 27, 0.7);
+  --bg-card-hover: rgba(32, 32, 38, 0.85);
+  --bg-pill: rgba(255, 255, 255, 0.05);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(56, 189, 248, 0.35);
+  --text: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --accent: #38bdf8;
+  --accent-strong: #0ea5e9;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+  --accent-2: #818cf8;
+  --green: #34d399;
+  --nav-bg: rgba(9, 9, 11, 0.78);
+  --shadow: 0 12px 32px -12px rgba(0, 0, 0, 0.55);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --max-w: 1040px;
+}
+
+[data-theme="light"] {
+  --bg: #f8fafc;
+  --bg-elevated: #ffffff;
+  --bg-card: rgba(255, 255, 255, 0.92);
+  --bg-card-hover: #ffffff;
+  --bg-pill: rgba(15, 23, 42, 0.05);
+  --border: rgba(15, 23, 42, 0.09);
+  --border-hover: rgba(2, 132, 199, 0.4);
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --accent: #0284c7;
+  --accent-strong: #0369a1;
+  --accent-soft: rgba(2, 132, 199, 0.1);
+  --accent-2: #4f46e5;
+  --green: #10b981;
+  --nav-bg: rgba(248, 250, 252, 0.84);
+  --shadow: 0 12px 32px -14px rgba(15, 23, 42, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Subtle ambient glow */
+.bg-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(600px circle at 18% 8%, rgba(56, 189, 248, 0.11), transparent 60%),
+    radial-gradient(520px circle at 84% 16%, rgba(129, 140, 248, 0.09), transparent 60%);
+}
+
+[data-theme="light"] .bg-glow {
+  background:
+    radial-gradient(600px circle at 18% 8%, rgba(2, 132, 199, 0.08), transparent 60%),
+    radial-gradient(520px circle at 84% 16%, rgba(79, 70, 229, 0.06), transparent 60%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mono {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.02em;
+}
+
+.brand-badge {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+}
+
+.nav-links a {
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.18s ease, background 0.18s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--text);
+  background: var(--bg-pill);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.icon-btn:hover {
+  color: var(--text);
+  border-color: var(--border-hover);
+  transform: translateY(-1px);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-sm {
+  padding: 7px 14px;
+  font-size: 0.82rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #ffffff;
+  box-shadow: 0 6px 20px -6px rgba(56, 189, 248, 0.5);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 10px 26px -6px rgba(56, 189, 248, 0.65);
+}
+
+.btn-secondary {
+  background: var(--bg-card);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.btn-secondary:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+/* Hero */
+.hero {
+  padding: 72px 0 40px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  align-items: center;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.18);
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.08;
+  margin-bottom: 12px;
+}
+
+.hero-role {
+  font-size: clamp(1.1rem, 2.2vw, 1.45rem);
+  font-weight: 600;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 20px;
+}
+
+.hero-summary {
+  max-width: 640px;
+  font-size: 1.02rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 4px;
+}
+
+.avatar-wrap {
+  position: relative;
+  width: 176px;
+  height: 176px;
+  flex-shrink: 0;
+}
+
+.avatar-wrap::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  opacity: 0.55;
+  filter: blur(12px);
+  z-index: 0;
+}
+
+.avatar {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  border: 2px solid var(--border);
+  background: var(--bg-elevated);
+}
+
+/* Bento Highlights Strip */
+.bento-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 44px;
+}
+
+.bento-card {
+  padding: 18px 20px;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.bento-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.bento-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.bento-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.bento-sub {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+/* Sections */
+.section {
+  padding: 56px 0 16px;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.section-kicker {
+  font-size: 0.78rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.section-title {
+  font-size: clamp(1.5rem, 2.8vw, 1.95rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+/* Experience Timeline */
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 26px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent), var(--border) 85%, transparent);
+}
+
+.timeline-item {
+  position: relative;
+  padding: 24px 26px;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.timeline-item:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -26px;
+  top: 28px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2.5px solid var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.work-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.work-position {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.work-company {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-top: 2px;
+}
+
+.work-company:hover {
+  text-decoration: underline;
+}
+
+.work-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: var(--bg-pill);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.work-summary {
+  color: var(--text-secondary);
+  font-size: 0.94rem;
+  margin-bottom: 14px;
+}
+
+.highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.highlights li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+}
+
+.highlights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: var(--accent);
+  opacity: 0.85;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateY(-3px);
+}
+
+.project-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.project-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.project-arrow {
+  color: var(--text-muted);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.project-card:hover .project-arrow {
+  color: var(--accent);
+  transform: translate(2px, -2px);
+}
+
+.project-name {
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+/* Skills Bento Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.skill-card {
+  padding: 20px 22px;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.skill-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.skill-card-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  list-style: none;
+}
+
+.tag {
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: var(--bg-pill);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.skill-card:hover .tag,
+.project-card:hover .tag {
+  color: var(--text);
+}
+
+/* Education & Languages */
+.edu-lang-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 18px;
+}
+
+.panel {
+  padding: 24px;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+}
+
+.panel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.edu-item + .edu-item {
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.edu-school {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.edu-degree {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.edu-date {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-item + .lang-item {
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.lang-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.lang-level {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: var(--bg-pill);
+  border: 1px solid var(--border);
+  text-align: right;
+}
+
+/* Contact CTA */
+.contact-card {
+  margin-top: 20px;
+  padding: 36px;
+  border-radius: 20px;
+  background:
+    radial-gradient(420px circle at 100% 0%, rgba(56, 189, 248, 0.15), transparent 60%),
+    var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.contact-copy h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 8px;
+}
+
+.contact-copy p {
+  color: var(--text-secondary);
+  max-width: 520px;
+  font-size: 0.95rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 64px;
+  padding: 28px 0 40px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-links a:hover {
+  color: var(--text);
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Responsive */
+@media (max-width: 860px) {
+  .nav-links {
+    display: none;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .avatar-wrap {
+    order: -1;
+    width: 112px;
+    height: 112px;
+  }
+  .bento-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .edu-lang-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding-top: 44px;
+  }
+  .projects-grid,
+  .skills-grid,
+  .bento-strip {
+    grid-template-columns: 1fr;
+  }
+  .timeline {
+    padding-left: 20px;
+  }
+  .timeline-item {
+    padding: 20px;
+  }
+  .timeline-dot {
+    left: -20px;
+  }
+  .contact-card {
+    padding: 24px;
+  }
+}
+
+/* Print fallback */
+@media print {
+  .navbar,
+  .bg-glow,
+  .hero-actions,
+  .contact-card {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
     </style>
   </head>
-      <body>
-    <a class="pdf-download-btn" href="resume/ahmetbedir.pdf" download="Ahmet-Bedir-Resume.pdf" aria-label="Download PDF Resume">
-      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-      Download PDF
-    </a>
-        
-    <header class="masthead">
-      <img src="https://avatars.githubusercontent.com/u/10426366?s=400&u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&v=4" alt="" />
-      <div><h1>Ahmet Bedir</h1> <h2>Senior Full-Stack Developer</h2></div>
-      <article><p>Senior Full-Stack Developer with 10+ years of experience leading the development of enterprise-grade SaaS, marketplace, and e-commerce platforms. Deep expertise in PHP/Laravel, system architecture, microservices, and API integrations. Known for improving performance, reducing operational bottlenecks, and driving engineering excellence. Strong background in Docker, CI/CD automation, cloud infrastructure, and Agile delivery.</p></article>
-      <ul class="icon-list">
-        
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Bursa, Türkiye
-          </li>
-        
-        
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            <a href="mailto:ahmetbedir16@gmail.com">ahmetbedir16@gmail.com</a>
-          </li>
-        
-        
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-            <a href="tel:+905444866138">+905444866138</a>
-          </li>
-        
-        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg> <a href="https://ahmetbedir.dev">ahmetbedir.dev</a></li>
-        
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg> <a href="https://www.linkedin.com/in/ahmet-bedir">ahmet-bedir</a>
-              <span class="network">(LinkedIn)</span>
-            </li>
-          
-            <li>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> <a href="https://github.com/ahmetbedir">ahmetbedir</a>
-              <span class="network">(GitHub)</span>
-            </li>
-          
-      </ul>
-    </header>
-   
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-          
-              <article>
-                <header>
-                  <h4>Senior Lead Developer</h4>
-                  <div class="meta">
-                    
-                          <div>
-                            <strong><a href="https://thedespatchcompany.com">The Despatch Company</a></strong>
-                          </div>
-                          <div><time datetime="2022-01-01">Jan 2022</time> – Present <time-duration dates="2022-01-01|"></time-duration></div>
-                          
-                        
-                  </div>
-                </header>
-                <div class="timeline">
-                  
-                      <div>
-                        
-                        <p>Leading backend architecture and full-stack delivery for a SaaS platform streamlining multi-channel e-commerce and logistics operations.</p>
-                        
-                          <ul>
-                            <li><p>Architected and built scalable SaaS e-commerce and multi-channel logistics integrations using PHP, Laravel, PostgreSQL, and Redis.</p></li><li><p>Designed RESTful API-driven microservices and modules for order processing, inventory synchronization, and warehouse workflows.</p></li><li><p>Engineered real-time shipment tracking and branded customer return portals with Vue.js, Livewire, and Filament.</p></li><li><p>Managed AWS (EC2, S3) and Docker-based infrastructure, CI/CD pipelines via GitHub Actions, and mentored developers through code reviews.</p></li>
-                          </ul>
-                        
-                      </div>
-                    
+  <body>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <nav class="navbar" aria-label="Primary">
+      <div class="nav-inner">
+        <a href="#top" class="brand">
+          <span class="brand-badge">AB</span>
+          <span>ahmetbedir.dev</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle light/dark theme" title="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+            <svg class="icon-moon" style="display:none" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          </button>
+          <a class="btn btn-primary btn-sm" href="resume/ahmetbedir.pdf" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Resume PDF
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top" class="container">
+      <header class="hero">
+        <div class="hero-grid">
+          <div>
+            <div class="status-pill mono">
+              <span class="status-dot" aria-hidden="true"></span>
+              Senior Lead Developer @ The Despatch Company
+               · Bursa, TR
+            </div>
+
+            <h1>Ahmet Bedir</h1>
+            <div class="hero-role">Senior Full-Stack Developer</div>
+            <p class="hero-summary">Senior Full-Stack Developer with 10+ years of experience leading the development of enterprise-grade SaaS, marketplace, and e-commerce platforms. Deep expertise in PHP/Laravel, system architecture, microservices, and API integrations. Known for improving performance, reducing operational bottlenecks, and driving engineering excellence. Strong background in Docker, CI/CD automation, cloud infrastructure, and Agile delivery.</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="resume/ahmetbedir.pdf" download="Ahmet-Bedir-Resume.pdf">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download CV
+              </a>
+
+              <button type="button" class="btn btn-secondary" data-copy-email="ahmetbedir16@gmail.com">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                <span class="copy-label">Copy Email</span>
+              </button>
+
+              <div class="social-row">
+                <a class="icon-btn" href="https://www.linkedin.com/in/ahmet-bedir" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a class="icon-btn" href="https://github.com/ahmetbedir" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="avatar-wrap">
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/10426366?s&#x3D;400&amp;u&#x3D;8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&amp;v&#x3D;4" alt="Ahmet Bedir" width="176" height="176" />
+          </div>
+        </div>
+
+        <div class="bento-strip">
+          <div class="bento-card">
+            <div class="bento-label mono">Experience</div>
+            <div class="bento-value">10+ Years</div>
+            <div class="bento-sub">SaaS &amp; E-Commerce</div>
+          </div>
+          <div class="bento-card">
+            <div class="bento-label mono">Primary Stack</div>
+            <div class="bento-value">PHP / Laravel</div>
+            <div class="bento-sub">Vue.js · Livewire · Filament</div>
+          </div>
+          <div class="bento-card">
+            <div class="bento-label mono">Infrastructure</div>
+            <div class="bento-value">AWS &amp; Docker</div>
+            <div class="bento-sub">PostgreSQL · Redis · CI/CD</div>
+          </div>
+          <div class="bento-card">
+            <div class="bento-label mono">Location</div>
+            <div class="bento-value">Bursa, TR</div>
+            <div class="bento-sub">Remote-friendly (UTC+3)</div>
+          </div>
+        </div>
+      </header>
+
+      <section id="experience" class="section reveal">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker mono">01 / Career</div>
+            <h2 class="section-title">Work Experience</h2>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="work-top">
+              <div>
+                <h3 class="work-position">Senior Lead Developer</h3>
+                <a class="work-company" href="https://thedespatchcompany.com" target="_blank" rel="noopener noreferrer">
+                  The Despatch Company
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </a>
+              </div>
+              <div class="work-meta mono">
+                <span>Jan 2022 — Present</span>
+                <span>·</span>
+                <span>4 yrs 10 mos</span>
+              </div>
+            </div>
+
+            <p class="work-summary">Leading backend architecture and full-stack delivery for a SaaS platform streamlining multi-channel e-commerce and logistics operations.</p>
+
+            <ul class="highlights">
+              <li>Architected and built scalable SaaS e-commerce and multi-channel logistics integrations using PHP, Laravel, PostgreSQL, and Redis.</li>
+              <li>Designed RESTful API-driven microservices and modules for order processing, inventory synchronization, and warehouse workflows.</li>
+              <li>Engineered real-time shipment tracking and branded customer return portals with Vue.js, Livewire, and Filament.</li>
+              <li>Managed AWS (EC2, S3) and Docker-based infrastructure, CI/CD pipelines via GitHub Actions, and mentored developers through code reviews.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="work-top">
+              <div>
+                <h3 class="work-position">Software Developer</h3>
+                <a class="work-company" href="https://www.tekkilavuz.com.tr" target="_blank" rel="noopener noreferrer">
+                  Tek Kılavuz Digital Performance Agency
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </a>
+              </div>
+              <div class="work-meta mono">
+                <span>Nov 2018 — Jan 2022</span>
+                <span>·</span>
+                <span>3 yrs 2 mos</span>
+              </div>
+            </div>
+
+            <p class="work-summary">Developed custom e-commerce platforms, CRM applications, and business automation software for agency clients.</p>
+
+            <ul class="highlights">
+              <li>Delivered high-performance e-commerce platforms and custom web applications using PHP, Laravel, JavaScript, Vue.js, and MySQL.</li>
+              <li>Built tailored CRM and business automation systems to streamline client sales, reporting, and operational workflows.</li>
+              <li>Administered Linux hosting environments, optimized web servers and database queries, and ensured high availability across client projects.</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="work-top">
+              <div>
+                <h3 class="work-position">Technical Support Specialist</h3>
+                <a class="work-company" href="https://www.sisoft.com.tr/tr/" target="_blank" rel="noopener noreferrer">
+                  Sisoft Healthcare Information Systems
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </a>
+              </div>
+              <div class="work-meta mono">
+                <span>Feb 2017 — Oct 2018</span>
+                <span>·</span>
+                <span>1 yr 8 mos</span>
+              </div>
+            </div>
+
+            <p class="work-summary">Provided technical support, troubleshooting, and operational maintenance for hospital information management systems.</p>
+
+            <ul class="highlights">
+              <li>Diagnosed and resolved production software and database issues for hospital information management systems across healthcare institutions.</li>
+              <li>Collaborated with engineering teams to improve system uptime, stability, and day-to-day usability for healthcare staff.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker mono">02 / Open Source</div>
+            <h2 class="section-title">Featured Projects</h2>
+          </div>
+          <a class="mono" style="font-size:0.84rem;color:var(--accent)" href="https://github.com/ahmetbedir" target="_blank" rel="noopener noreferrer">
+            All repos on GitHub →
+          </a>
+        </div>
+
+        <div class="projects-grid">
+          <a class="project-card" href="https://github.com/ahmetbedir/bb" target="_blank" rel="noopener noreferrer">
+            <div>
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </span>
+                <svg class="project-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </div>
+              <h3 class="project-name">bb — Bitbucket CLI</h3>
+              <p class="project-desc">Command-line interface for Bitbucket Cloud built in PHP to streamline pull requests, pipelines, deployments, and repository workflows directly from the terminal.</p>
+            </div>
+            <ul class="tag-list">
+              <li class="tag mono">PHP</li>
+              <li class="tag mono">CLI</li>
+              <li class="tag mono">Bitbucket API</li>
+              <li class="tag mono">Developer Tools</li>
+            </ul>
+          </a>
+          <a class="project-card" href="https://github.com/ahmetbedir/pbin" target="_blank" rel="noopener noreferrer">
+            <div>
+              <div class="project-top">
+                <span class="project-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </span>
+                <svg class="project-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </div>
+              <h3 class="project-name">pbin — PrivateBin CLI</h3>
+              <p class="project-desc">Zero-knowledge encrypted paste CLI tool for PrivateBin servers, enabling secure terminal-to-browser snippet sharing with client-side encryption.</p>
+            </div>
+            <ul class="tag-list">
+              <li class="tag mono">PHP</li>
+              <li class="tag mono">CLI</li>
+              <li class="tag mono">Encryption</li>
+              <li class="tag mono">Security</li>
+            </ul>
+          </a>
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker mono">03 / Toolkit</div>
+            <h2 class="section-title">Technical Skills</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3 class="skill-card-title">Languages &amp; Frameworks</h3>
+            <ul class="tag-list">
+              <li class="tag mono">PHP</li>
+              <li class="tag mono">Laravel</li>
+              <li class="tag mono">Filament</li>
+              <li class="tag mono">Livewire</li>
+              <li class="tag mono">JavaScript</li>
+              <li class="tag mono">Node.js</li>
+              <li class="tag mono">Vue.js</li>
+              <li class="tag mono">Nuxt.js</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card-title">Databases &amp; Caching</h3>
+            <ul class="tag-list">
+              <li class="tag mono">PostgreSQL</li>
+              <li class="tag mono">MySQL</li>
+              <li class="tag mono">Redis</li>
+              <li class="tag mono">MongoDB</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card-title">DevOps &amp; Infrastructure</h3>
+            <ul class="tag-list">
+              <li class="tag mono">AWS (EC2, S3)</li>
+              <li class="tag mono">Docker</li>
+              <li class="tag mono">CI/CD</li>
+              <li class="tag mono">GitHub Actions</li>
+              <li class="tag mono">Linux</li>
+              <li class="tag mono">Server Maintenance</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card-title">Architecture &amp; Methodologies</h3>
+            <ul class="tag-list">
+              <li class="tag mono">MVC</li>
+              <li class="tag mono">RESTful API Design</li>
+              <li class="tag mono">Microservices</li>
+              <li class="tag mono">Agile/Scrum</li>
+              <li class="tag mono">TDD</li>
+              <li class="tag mono">Design Patterns</li>
+              <li class="tag mono">Component Based Architecture</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card-title">Leadership &amp; Collaboration</h3>
+            <ul class="tag-list">
+              <li class="tag mono">Team Leadership</li>
+              <li class="tag mono">Mentoring</li>
+              <li class="tag mono">Code Review</li>
+              <li class="tag mono">Technical Architecture</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-card-title">Tools</h3>
+            <ul class="tag-list">
+              <li class="tag mono">Git</li>
+              <li class="tag mono">GitHub</li>
+              <li class="tag mono">Bitbucket</li>
+              <li class="tag mono">Jira</li>
+              <li class="tag mono">Webpack</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section reveal">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker mono">04 / Background</div>
+            <h2 class="section-title">Education &amp; Languages</h2>
+          </div>
+        </div>
+
+        <div class="edu-lang-grid">
+          <div class="panel">
+            <div class="panel-list">
+              <div class="edu-item">
+                <div>
+                  <div class="edu-school">Anadolu University</div>
+                  <div class="edu-degree">Associate Degree in Web Design and Development</div>
                 </div>
-              </article>
-            
-              <article>
-                <header>
-                  <h4>Software Developer</h4>
-                  <div class="meta">
-                    
-                          <div>
-                            <strong><a href="https://www.tekkilavuz.com.tr">Tek Kılavuz Digital Performance Agency</a></strong>
-                          </div>
-                          <div><time datetime="2018-11-01">Nov 2018</time> – <time datetime="2022-01-01">Jan 2022</time> <time-duration dates="2018-11-01|2022-01-01"></time-duration></div>
-                          
-                        
-                  </div>
-                </header>
-                <div class="timeline">
-                  
-                      <div>
-                        
-                        <p>Developed custom e-commerce platforms, CRM applications, and business automation software for agency clients.</p>
-                        
-                          <ul>
-                            <li><p>Delivered high-performance e-commerce platforms and custom web applications using PHP, Laravel, JavaScript, Vue.js, and MySQL.</p></li><li><p>Built tailored CRM and business automation systems to streamline client sales, reporting, and operational workflows.</p></li><li><p>Administered Linux hosting environments, optimized web servers and database queries, and ensured high availability across client projects.</p></li>
-                          </ul>
-                        
-                      </div>
-                    
+                <div class="edu-date mono">Sep 2019 — Jun 2024</div>
+              </div>
+              <div class="edu-item">
+                <div>
+                  <div class="edu-school">Dumlupınar University</div>
+                  <div class="edu-degree">Associate Degree in Computer Programming</div>
                 </div>
-              </article>
-            
-              <article>
-                <header>
-                  <h4>Technical Support Specialist</h4>
-                  <div class="meta">
-                    
-                          <div>
-                            <strong><a href="https://www.sisoft.com.tr/tr/">Sisoft Healthcare Information Systems</a></strong>
-                          </div>
-                          <div><time datetime="2017-02-01">Feb 2017</time> – <time datetime="2018-10-01">Oct 2018</time> <time-duration dates="2017-02-01|2018-10-01"></time-duration></div>
-                          
-                        
-                  </div>
-                </header>
-                <div class="timeline">
-                  
-                      <div>
-                        
-                        <p>Provided technical support, troubleshooting, and operational maintenance for hospital information management systems.</p>
-                        
-                          <ul>
-                            <li><p>Diagnosed and resolved production software and database issues for hospital information management systems across healthcare institutions.</p></li><li><p>Collaborated with engineering teams to improve system uptime, stability, and day-to-day usability for healthcare staff.</p></li>
-                          </ul>
-                        
-                      </div>
-                    
-                </div>
-              </article>
-            
+                <div class="edu-date mono">Sep 2014 — Jun 2017</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-list">
+              <div class="lang-item">
+                <span class="lang-name">Turkish</span>
+                <span class="lang-level mono">Native</span>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">English</span>
+                <span class="lang-level mono">Professional working proficiency</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-          
-              <article>
-                <header>
-                  <h4>Anadolu University</h4>
-                  <div class="meta">
-                    <div>Associate Degree in <strong>Web Design and Development</strong></div>
-                    <div><time datetime="2019-09-01">Sep 2019</time> – <time datetime="2024-06-01">Jun 2024</time> <time-duration dates="2019-09-01|2024-06-01"></time-duration></div>
-                  </div>
-                </header>
-                
-              </article>
-            
-              <article>
-                <header>
-                  <h4>Dumlupınar University</h4>
-                  <div class="meta">
-                    <div>Associate Degree in <strong>Computer Programming</strong></div>
-                    <div><time datetime="2014-09-01">Sep 2014</time> – <time datetime="2017-06-01">Jun 2017</time> <time-duration dates="2014-09-01|2017-06-01"></time-duration></div>
-                  </div>
-                </header>
-                
-              </article>
-            
+
+      <section id="contact" class="section reveal">
+        <div class="contact-card">
+          <div class="contact-copy">
+            <h2>Let's build something great.</h2>
+            <p>Interested in discussing system architecture, full-stack engineering leadership, or SaaS opportunities? Reach out directly or download the ATS-ready PDF resume.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:ahmetbedir16@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Email Me
+            </a>
+            <a class="btn btn-secondary" href="resume/ahmetbedir.pdf" target="_blank" rel="noopener">
+              View ATS PDF
+            </a>
+          </div>
         </div>
       </section>
-    
-          
-         
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-          
-              <div>
-                <h4>Languages & Frameworks</h4>
-                
-                  <ul class="tag-list">
-                    <li>PHP</li><li>Laravel</li><li>Filament</li><li>Livewire</li><li>JavaScript</li><li>Node.js</li><li>Vue.js</li><li>Nuxt.js</li>
-                  </ul>
-                
-              </div>
-            
-              <div>
-                <h4>Databases & Caching</h4>
-                
-                  <ul class="tag-list">
-                    <li>PostgreSQL</li><li>MySQL</li><li>Redis</li><li>MongoDB</li>
-                  </ul>
-                
-              </div>
-            
-              <div>
-                <h4>DevOps & Infrastructure</h4>
-                
-                  <ul class="tag-list">
-                    <li>AWS (EC2, S3)</li><li>Docker</li><li>CI/CD</li><li>GitHub Actions</li><li>Linux</li><li>Server Maintenance</li>
-                  </ul>
-                
-              </div>
-            
-              <div>
-                <h4>Architecture & Methodologies</h4>
-                
-                  <ul class="tag-list">
-                    <li>MVC</li><li>RESTful API Design</li><li>Microservices</li><li>Agile/Scrum</li><li>TDD</li><li>Design Patterns</li><li>Component Based Architecture</li>
-                  </ul>
-                
-              </div>
-            
-              <div>
-                <h4>Leadership & Collaboration</h4>
-                
-                  <ul class="tag-list">
-                    <li>Team Leadership</li><li>Mentoring</li><li>Code Review</li><li>Technical Architecture</li>
-                  </ul>
-                
-              </div>
-            
-              <div>
-                <h4>Tools</h4>
-                
-                  <ul class="tag-list">
-                    <li>Git</li><li>GitHub</li><li>Bitbucket</li><li>Jira</li><li>Webpack</li>
-                  </ul>
-                
-              </div>
-            
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© 2026 Ahmet Bedir. Built from <span class="mono">resume.json</span>.</div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/ahmet-bedir" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/ahmetbedir" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="resume/ahmetbedir.pdf" target="_blank" rel="noopener">PDF Resume</a>
         </div>
-      </section>
-     
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-          <div><h4>Turkish</h4> Native</div><div><h4>English</h4> Professional working proficiency</div>
-        </div>
-      </section>
-    
-         
-      </body>
-    </html>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        // Theme toggle
+        var root = document.documentElement;
+        var toggle = document.getElementById("theme-toggle");
+        var sun = toggle && toggle.querySelector(".icon-sun");
+        var moon = toggle && toggle.querySelector(".icon-moon");
+
+        function syncIcons() {
+          var isLight = root.getAttribute("data-theme") === "light";
+          if (sun) sun.style.display = isLight ? "none" : "block";
+          if (moon) moon.style.display = isLight ? "block" : "none";
+        }
+        syncIcons();
+
+        if (toggle) {
+          toggle.addEventListener("click", function () {
+            var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+            root.setAttribute("data-theme", next);
+            localStorage.setItem("theme", next);
+            syncIcons();
+          });
+        }
+
+        // Copy email button
+        document.querySelectorAll("[data-copy-email]").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            var email = btn.getAttribute("data-copy-email");
+            var label = btn.querySelector(".copy-label");
+            if (!navigator.clipboard || !email) return;
+            navigator.clipboard.writeText(email).then(function () {
+              if (label) {
+                label.textContent = "Copied!";
+                setTimeout(function () {
+                  label.textContent = "Copy Email";
+                }, 1800);
+              }
+            });
+          });
+        });
+
+        // Scroll reveal
+        var reveals = document.querySelectorAll(".reveal");
+        if ("IntersectionObserver" in window) {
+          var observer = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add("visible");
+                  observer.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.08 }
+          );
+          reveals.forEach(function (el) {
+            observer.observe(el);
+          });
+        } else {
+          reveals.forEach(function (el) {
+            el.classList.add("visible");
+          });
+        }
+
+        // Active nav link on scroll
+        var navLinks = Array.from(document.querySelectorAll(".nav-links a"));
+        var sections = navLinks
+          .map(function (a) {
+            return document.querySelector(a.getAttribute("href"));
+          })
+          .filter(Boolean);
+
+        window.addEventListener(
+          "scroll",
+          function () {
+            var y = window.scrollY + 120;
+            var current = null;
+            sections.forEach(function (sec) {
+              if (sec.offsetTop <= y) current = sec.id;
+            });
+            navLinks.forEach(function (a) {
+              a.classList.toggle("active", a.getAttribute("href") === "#" + current);
+            });
+          },
+          { passive: true }
+        );
+      })();
+    </script>
+  </body>
+</html>
