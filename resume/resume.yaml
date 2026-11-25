@@ -32,7 +32,7 @@ cv:
         highlights: []
     experience:
       - company: "The Despatch Company"
-        position: "Senior Software Developer"
+        position: "Senior Lead Developer"
         start_date: "2022-01-01"
         highlights:
           - "Built scalable SaaS-based e-commerce and logistics integrations."
