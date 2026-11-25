@@ -8,7 +8,7 @@
     "email": "ahmetbedir16@gmail.com",
     "phone": "+905444866138",
     "url": "https://ahmetbedir.dev",
-    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 50+ marketplaces, carts and accounting systems and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team's delivery.",
+    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team's delivery.",
     "location": {
       "city": "Bursa",
       "countryCode": "TR"
@@ -33,10 +33,10 @@
       "position": "Senior Lead Developer",
       "url": "https://thedespatchcompany.com",
       "startDate": "2023-10-01",
-      "summary": "Leading development of Neuro, a multi-channel commerce platform that pulls orders and products from 50+ sales channels, syncs stock and fulfilments back, and routes orders to logistics and accounting systems.",
+      "summary": "Leading development of Neuro (heyneuro.io), the company's multi-channel eCommerce integration platform (iPaaS) that keeps products, stock, orders and fulfilments in sync between retailers and their marketplaces, carts, accounting and logistics systems.",
       "highlights": [
         "Team lead of the Neuro engineering team (code review, task planning, release management) on a Laravel, PostgreSQL and Redis platform, owning architecture decisions and production stability.",
-        "Built and maintained integrations with Amazon SP-API and Vendor Central, eBay, Shopify, TikTok Shop, Etsy, Walmart, Mirakl, Magento, Medusa and QuickBooks Online, plus 3PL fulfilment plugins.",
+        "Built and maintained integrations with Amazon SP-API and Vendor Central, eBay, Shopify, TikTok Shop, Etsy, Walmart, Mirakl, Magento, Medusa and QuickBooks Online, plus 25+ 3PL and logistics integrations.",
         "Run high-volume, queue-driven processing that handles millions of orders, stock updates and events every day; lead root-cause analysis of production incidents and turn findings into lasting fixes.",
         "Improved platform performance through query, queue and caching optimisations, including a ~38% faster rule engine in production, and led major PHP and Laravel version upgrades.",
         "Designing a data archiving strategy with ClickHouse to keep the primary database lean as data volumes grow.",
@@ -51,10 +51,10 @@
       "url": "https://thedespatchcompany.com",
       "startDate": "2022-01-01",
       "endDate": "2023-10-01",
-      "summary": "Worked across the company's logistics and e-commerce products: Helm WMS, the Voila shipping platform, the Tracking API and the rydale.com e-commerce platform.",
+      "summary": "Worked across the company's product suite: Helm WMS (eCommerce order and warehouse management), Voila (multi-courier shipping platform), the Tracking API and the rydale.com e-commerce platform.",
       "highlights": [
-        "Developed features for Helm WMS, the company's warehouse management system, during the first months.",
-        "Built courier and carrier integrations for Voila, the company's multi-carrier shipping platform.",
+        "Developed features for Helm WMS (helmwms.com), the company's multi-channel order and warehouse management system for eCommerce, during the first months.",
+        "Built courier integrations for Voila (heyvoila.io), the company's multi-courier shipping platform that now connects businesses to 160+ couriers through a single integration.",
         "Worked on the Tracking API, delivering shipment tracking and branded customer-facing tracking and returns pages.",
         "Developed the rydale.com e-commerce platform from scratch over a long-running project, covering architecture, catalogue, ordering flows and integrations through to launch."
       ]
