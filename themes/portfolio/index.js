@@ -58,11 +58,32 @@ function render(resume) {
   });
 
   const currentJob = resume.work && resume.work.length ? resume.work[0] : null;
+  const b = resume.basics || {};
+
+  const jsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: b.name,
+    jobTitle: b.label,
+    url: b.url,
+    image: b.image,
+    email: b.email ? `mailto:${b.email}` : undefined,
+    address: b.location && {
+      "@type": "PostalAddress",
+      addressLocality: b.location.city,
+      addressCountry: b.location.countryCode,
+    },
+    sameAs: (b.profiles || []).map((p) => p.url),
+    worksFor: currentJob && { "@type": "Organization", name: currentJob.name, url: currentJob.url },
+    alumniOf: (resume.education || []).map((e) => ({ "@type": "CollegeOrUniversity", name: e.institution })),
+    knowsAbout: (resume.skills || []).flatMap((s) => s.keywords || []),
+  }).replace(/</g, "\\u003c"); // keep "</script>" in data from closing the tag
 
   return hb.compile(template)({
     css,
     resume,
     currentJob,
+    jsonLd,
   });
 }
 

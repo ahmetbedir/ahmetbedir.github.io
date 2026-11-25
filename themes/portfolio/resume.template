@@ -32,6 +32,7 @@
     <style>
       {{{css}}}
     </style>
+    <script type="application/ld+json">{{{jsonLd}}}</script>
   </head>
   <body>
     <div class="bg-glow" aria-hidden="true"></div>

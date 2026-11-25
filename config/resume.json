@@ -8,7 +8,7 @@
     "email": "ahmetbedir16@gmail.com",
     "phone": "+905444866138",
     "url": "https://ahmetbedir.dev",
-    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team's delivery.",
+    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team's delivery. Open to remote roles and relocation.",
     "location": {
       "city": "Bursa",
       "countryCode": "TR"
@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "The Despatch Company",
-      "position": "Senior Lead Developer",
+      "position": "Senior Lead Software Engineer",
       "url": "https://thedespatchcompany.com",
       "startDate": "2023-10-01",
       "summary": "Leading development of Neuro (heyneuro.io), the company's multi-channel eCommerce integration platform (iPaaS) that keeps products, stock, orders and fulfilments in sync between retailers and their marketplaces, carts, accounting and logistics systems.",
