@@ -113,6 +113,23 @@
       {{/if}}
       {{/if}}
 
+      {{#if resume.projects.length}}
+      <section class="section">
+        <h2>Projects</h2>
+        <hr>
+        <div class="section-content">
+          {{#each resume.projects}}
+          <div class="work-item">
+            <div class="work-position">{{#if url}}<a href="{{url}}" target="_blank">{{name}}</a>{{else}}{{name}}{{/if}}</div>
+            <div class="secondary">
+              <div class="work-summary">{{description}}{{#if keywords.length}} <em>({{join keywords ", "}})</em>{{/if}}</div>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </section>
+      {{/if}}
+
       {{#if resume.skills}}
       {{#if resume.skills.length}}
       <section class="section">

@@ -6,12 +6,12 @@
     "name": "Ahmet Bedir",
     "label": "Senior Lead Software Engineer",
     "email": "ahmetbedir16@gmail.com",
-    "phone": "+905444866138",
+    "phone": "+90 544 486 61 38",
     "url": "https://ahmetbedir.dev",
-    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Uses AI coding agents daily across development, code review and incident analysis, and ships AI features in production: LLM agents with tool calling and structured output inside the product, plus MCP servers and AI code review for the team. Open to remote roles and relocation.",
+    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Leads the engineering team behind a multi-channel commerce platform integrating 65+ sales channels and 25+ 3PL and logistics providers, processing millions of orders and events every day. Strong in system architecture, queue-driven processing, performance tuning and production incident analysis. Ships LLM-powered features in production and uses AI coding agents daily across development, code review and operations. Open to remote roles and relocation.",
     "location": {
       "city": "Bursa",
-      "countryCode": "TR"
+      "countryCode": "Türkiye"
     },
     "profiles": [
       {
@@ -34,17 +34,14 @@
       "position": "Senior Lead Software Engineer",
       "url": "https://thedespatchcompany.com",
       "startDate": "2023-10-01",
-      "summary": "Leading development of Neuro (heyneuro.io), the company's multi-channel eCommerce integration platform (iPaaS) that keeps products, stock, orders and fulfilments in sync between retailers and their marketplaces, carts, accounting and logistics systems.",
+      "summary": "Leading development of Neuro (heyneuro.io), the company's multi-channel e-commerce integration platform (iPaaS) that keeps products, stock, orders and fulfilments in sync between retailers and their marketplaces, carts, accounting and logistics systems.",
       "highlights": [
         "Team lead of the Neuro engineering team (code review, task planning, release management) on a Laravel, PostgreSQL and Redis platform, owning architecture decisions and production stability.",
         "Built and maintained integrations with Amazon SP-API and Vendor Central, eBay, Shopify, TikTok Shop, Etsy, Walmart, Mirakl, Magento, Medusa and QuickBooks Online, plus 25+ 3PL and logistics integrations.",
-        "Run high-volume, queue-driven processing that handles millions of orders, stock updates and events every day; lead root-cause analysis of production incidents and turn findings into lasting fixes.",
-        "Improved platform performance through query, queue and caching optimisations, including a ~38% faster rule engine in production, and led major PHP and Laravel version upgrades.",
-        "Designing a data archiving strategy with ClickHouse to keep the primary database lean as data volumes grow.",
-        "Automated multi-server deployments with zero-downtime queue handling and clear failure reporting in CI/CD, and led a cloud object storage migration.",
         "Shipped AI features in Neuro with LLM agents using tool calling and structured output: built AI-assisted SKU mapping that suggests matches between channel and catalogue products, and led delivery of natural-language rule and report builders that turn plain-English requests into automation rules and scheduled reports.",
-        "Built AI developer tooling for the team: an MCP server that gives Claude Code access to Jira, Freshdesk, Sentry and Horizon, and an application that reviews pull requests against their Jira tasks with Claude Code and manages release candidates and branches.",
-        "Contributed to migrating the frontend from Nuxt 2 / Vue 2 to Next.js and React, and maintain a multi-tenant log storage microservice used by other internal APIs."
+        "Run high-volume, queue-driven processing of millions of orders, stock updates and events a day; improved performance through query, queue and caching optimisations (including a ~38% faster rule engine), led major PHP and Laravel upgrades and drive root-cause analysis of production incidents.",
+        "Automated multi-server deployments with zero-downtime queue handling, led a cloud object storage migration and started a ClickHouse-based archiving initiative to keep the primary database lean.",
+        "Built AI developer tooling for the team: an MCP server that connects Claude Code to Jira, Freshdesk, Sentry and Horizon, and an application that reviews pull requests against their Jira tasks and manages release candidates and branches. Contributed to the Nuxt 2 to Next.js and React frontend migration."
       ]
     },
     {
@@ -53,9 +50,9 @@
       "url": "https://thedespatchcompany.com",
       "startDate": "2022-01-01",
       "endDate": "2023-10-01",
-      "summary": "Worked across the company's product suite: Helm WMS (eCommerce order and warehouse management), Voila (multi-courier shipping platform), the Tracking API and the rydale.com e-commerce platform.",
+      "summary": "Worked across the company's product suite: Helm WMS (e-commerce order and warehouse management), Voila (multi-courier shipping platform), the Tracking API and the rydale.com e-commerce platform.",
       "highlights": [
-        "Developed features for Helm WMS (helmwms.com), the company's multi-channel order and warehouse management system for eCommerce, during the first months.",
+        "Developed features for Helm WMS (helmwms.com), the company's multi-channel order and warehouse management system for e-commerce, during the first months.",
         "Built courier integrations for Voila (heyvoila.io), the company's multi-courier shipping platform that now connects businesses to 160+ couriers through a single integration.",
         "Worked on the Tracking API, delivering shipment tracking and branded customer-facing tracking and returns pages.",
         "Developed the rydale.com e-commerce platform from scratch over a long-running project, covering architecture, catalogue, ordering flows and integrations through to launch."
@@ -71,7 +68,7 @@
       "highlights": [
         "Delivered high-performance e-commerce platforms and custom web applications using PHP, Laravel, JavaScript, Vue.js, and MySQL.",
         "Built tailored CRM and business automation systems to streamline client sales, reporting, and operational workflows.",
-        "Administered Linux hosting environments, optimized web servers and database queries, and ensured high availability across client projects."
+        "Administered Linux hosting environments, optimised web servers and database queries, and ensured high availability across client projects."
       ]
     },
     {
@@ -82,8 +79,7 @@
       "endDate": "2018-10-01",
       "summary": "Provided technical support, troubleshooting, and operational maintenance for hospital information management systems.",
       "highlights": [
-        "Diagnosed and resolved production software and database issues for hospital information management systems across healthcare institutions.",
-        "Collaborated with engineering teams to improve system uptime, stability, and day-to-day usability for healthcare staff."
+        "Diagnosed and resolved production software and database issues for hospital information systems, working with engineering teams to improve uptime and stability."
       ]
     }
   ],
