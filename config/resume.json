@@ -8,7 +8,7 @@
     "email": "ahmetbedir16@gmail.com",
     "phone": "+905444866138",
     "url": "https://ahmetbedir.dev",
-    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Builds AI-assisted engineering tooling (MCP servers, LLM-driven code review) to speed up the team's delivery. Open to remote roles and relocation.",
+    "summary": "Senior Lead Software Engineer with 8+ years of experience building and scaling SaaS, marketplace and e-commerce platforms with PHP and Laravel. Currently leading the engineering team behind a multi-channel commerce platform that integrates 65+ marketplaces, carts and accounting systems plus 25+ 3PL and logistics providers, and processes millions of queue jobs and events every day. Strong in system architecture, high-volume queue processing, production incident analysis and performance tuning, with hands-on DevOps across CI/CD, deployment automation and cloud infrastructure. Uses AI coding agents daily across development, code review and incident analysis, and ships AI features in production: LLM agents with tool calling and structured output inside the product, plus MCP servers and AI code review for the team. Open to remote roles and relocation.",
     "location": {
       "city": "Bursa",
       "countryCode": "TR"
@@ -26,7 +26,7 @@
       }
     ],
     "image": "https://avatars.githubusercontent.com/u/10426366?s=400&u=8ba34be7ab42ddd948d01b61bc2297d22c5d3eba&v=4",
-    "pitch": "I lead the engineering team behind a multi-channel commerce platform that connects retailers to 90+ marketplaces, carts and logistics providers, and I build AI tooling that helps the team ship faster."
+    "pitch": "I lead the engineering team behind a multi-channel commerce platform that connects retailers to 90+ marketplaces, carts and logistics providers, and I bring AI into both the product and the way the team builds it."
   },
   "work": [
     {
@@ -42,6 +42,7 @@
         "Improved platform performance through query, queue and caching optimisations, including a ~38% faster rule engine in production, and led major PHP and Laravel version upgrades.",
         "Designing a data archiving strategy with ClickHouse to keep the primary database lean as data volumes grow.",
         "Automated multi-server deployments with zero-downtime queue handling and clear failure reporting in CI/CD, and led a cloud object storage migration.",
+        "Shipped AI features in Neuro with LLM agents using tool calling and structured output: built AI-assisted SKU mapping that suggests matches between channel and catalogue products, and led delivery of natural-language rule and report builders that turn plain-English requests into automation rules and scheduled reports.",
         "Built AI developer tooling for the team: an MCP server that gives Claude Code access to Jira, Freshdesk, Sentry and Horizon, and an application that reviews pull requests against their Jira tasks with Claude Code and manages release candidates and branches.",
         "Contributed to migrating the frontend from Nuxt 2 / Vue 2 to Next.js and React, and maintain a multi-tenant log storage microservice used by other internal APIs."
       ]
@@ -160,11 +161,16 @@
       ]
     },
     {
-      "name": "AI-Assisted Engineering",
+      "name": "AI Engineering",
       "keywords": [
+        "LLM Agents",
+        "Tool Calling",
+        "Structured Output",
+        "Neuron AI",
+        "AI Product Features",
         "Claude Code",
         "MCP Servers",
-        "LLM-Driven Code Review",
+        "AI Code Review",
         "Agentic Workflows"
       ]
     },
@@ -244,18 +250,19 @@
       ]
     },
     {
-      "name": "AI developer tooling",
-      "subtitle": "Internal tools for the Neuro team",
-      "role": "Designer and developer",
-      "problem": "Reviews and incident investigations meant jumping between Jira, support tickets, error tracking, queue dashboards and code to gather context by hand.",
-      "approach": "Built an MCP server that gives Claude Code access to Jira, Freshdesk, Sentry and Horizon, and a Laravel and Filament app that reviews pull requests against their Jira tasks with Claude Code and manages release candidates and branches.",
-      "outcome": "Every review and investigation starts with the task, ticket and error context already gathered, and release branches are prepared from one place.",
+      "name": "Applied AI",
+      "subtitle": "In the product and in the team's workflow",
+      "role": "Lead and developer",
+      "problem": "Merchants spent time mapping SKUs and configuring rules and reports by hand, and engineers lost time gathering context from Jira, support tickets, error tracking and queues before reviews and investigations.",
+      "approach": "Shipped LLM agents with tool calling and structured output in Neuro: AI SKU mapping plus natural-language rule and report builders. For the team, built an MCP server that connects Claude Code to Jira, Freshdesk, Sentry and Horizon, and an AI pull request reviewer that checks changes against their Jira tasks and manages releases.",
+      "outcome": "Merchants describe rules and reports in plain English and get product mapping suggestions, while every review and investigation starts with its context already gathered.",
       "keywords": [
-        "PHP",
-        "Laravel Zero",
-        "Laravel MCP",
-        "Filament",
-        "Claude Code"
+        "LLM Agents",
+        "Tool Calling",
+        "Structured Output",
+        "Neuron AI",
+        "Claude Code",
+        "MCP"
       ]
     }
   ]
